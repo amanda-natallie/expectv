@@ -322,7 +322,7 @@ blockquote footer{
     font-size: 11px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 2px;
+ 
 }
 dl dt{
     margin-bottom: 5px;
@@ -348,12 +348,12 @@ hr.black{
 }
 .uppercase{
     text-transform: uppercase;
-    letter-spacing: 1px;
+   
 }
 .font-alt{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    
 }
 .serif{
     font-family: "Times New Roman", Times, serif;
@@ -456,7 +456,7 @@ hr.black{
     margin-bottom: 10px;
     font-size: 48px;
     font-weight: 500;
-    letter-spacing: 0.4em;    
+  
     text-align: center;
     text-transform: uppercase;
     opacity: .9;
@@ -514,13 +514,13 @@ a.btn-mod{
     box-sizing: border-box;
     padding: 4px 13px;
     color: #fff;
-    background: #38875f;
+    background: #8DC63F;
     border: 2px solid transparent;
     font-size: 11px;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 2px;
+
     
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -558,7 +558,7 @@ a.btn-mod:focus{
     height: auto;
     padding: 6px 17px;
     font-size: 11px;
-    letter-spacing: 1px;
+  
 } 
 .btn-mod.btn-medium{
     height: auto;
@@ -734,7 +734,7 @@ a.btn-mod:focus{
     font-size: 11px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px;
+  
     color: #1E1E1E;
     border: 1px solid rgba(0,0,0, .1);
     padding-left: 7px;
@@ -842,7 +842,7 @@ a.btn-mod:focus{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase !important;
-    letter-spacing: 1px;
+  
     color: #1E1E1E;
     border-color: rgba(0,0,0, .1);
     outline: none;
@@ -1104,7 +1104,6 @@ a.bg-video-button-muted{
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 500;
-    letter-spacing: 51px;
     color: #fff;
     opacity: .9;
 }
@@ -1114,7 +1113,7 @@ a.bg-video-button-muted{
     font-size: 72px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.085em;
+
     line-height: 1.3;
     color: rgba(255,255,255, .85);
 }
@@ -1124,7 +1123,7 @@ a.bg-video-button-muted{
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;
+ 
     color: rgba(255,255,255, .7);
 }
 
@@ -1134,7 +1133,7 @@ a.bg-video-button-muted{
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 3px;
+
     color: rgba(255,255,255, .85);
 }
 .hs-line-5{
@@ -1144,7 +1143,7 @@ a.bg-video-button-muted{
     font-weight: 500;
     line-height: 1.2;
     text-transform: uppercase;
-    letter-spacing: 0.32em;
+ 
     opacity: .85;
 }
 .hs-line-6{
@@ -1164,7 +1163,7 @@ a.bg-video-button-muted{
     font-size: 64px;
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 2px;
+  
     line-height: 1.2;
 }
 .hs-line-8{
@@ -1172,7 +1171,7 @@ a.bg-video-button-muted{
     position: relative;
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.3em;
+
     line-height: 1.2;
     opacity: .75;
 }
@@ -1186,7 +1185,7 @@ a.bg-video-button-muted{
     font-size: 96px;
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 2px;
+ 
     line-height: 1.2;
 }
 .hs-line-10{
@@ -1198,7 +1197,7 @@ a.bg-video-button-muted{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 2px;
+
     color: rgba(255,255,255, .85);
 }
 .hs-line-10 > span{
@@ -1219,7 +1218,7 @@ a.bg-video-button-muted{
     font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+
     line-height: 1.8;
     opacity: .9;
 }
@@ -1230,7 +1229,7 @@ a.bg-video-button-muted{
     font-weight: 500;
     line-height: 1.2;
     text-transform: uppercase;
-    letter-spacing: 0.4em;
+  
 }
 .hs-line-13{
     margin-top: 0;
@@ -1239,7 +1238,7 @@ a.bg-video-button-muted{
     font-weight: 500;
     line-height: 1;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
+  
 }
 .hs-line-14{
     margin-top: 0;
@@ -1248,7 +1247,7 @@ a.bg-video-button-muted{
     font-weight: 500;
     line-height: 1.4;
     text-transform: uppercase;
-    letter-spacing: 0.7em;
+   
 }
 .hs-line-15{
     margin-top: 0;
@@ -1256,7 +1255,7 @@ a.bg-video-button-muted{
     font-size: 36px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+  
     line-height: 1.3;
 }
 .no-transp{
@@ -1280,7 +1279,7 @@ a.bg-video-button-muted{
     background: #fbfbfb;
     border-bottom: 1px solid rgba(0,0,0, .05);
     font-size: 11px;
-    letter-spacing: 1px;
+  
 }
 
 /*
@@ -1307,7 +1306,7 @@ a.bg-video-button-muted{
 }
 .top-links li .tooltip{
     text-transform: none;
-    letter-spacing: normal;
+  
     z-index: 2003;
     
 }
@@ -1393,7 +1392,7 @@ a.logo:hover{
     font-size: 18px;
     font-weight: 400 !important;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+   
     text-decoration: none;
     color: rgba(0,0,0, .9);
 }
@@ -1469,9 +1468,11 @@ a.logo:hover{
 }  
 .inner-nav ul li a:hover,
 .inner-nav ul li a.active{
-    color: #000;
+    
+    color: #fff !important;
     text-decoration: none;
-   border-bottom: 1px solid #fff
+   border-bottom: 1px solid #fff;
+   font-weight: 800
 }
 
 
@@ -1507,7 +1508,7 @@ a.logo:hover{
     text-transform: none;    
     border-left: none;
     border-right: none;
-    letter-spacing: 0;
+ 
     color: #b0b0b0 !important;
     cursor: pointer;
 }
@@ -1657,7 +1658,7 @@ a.logo:hover{
     border-right: none;
     border-bottom: 1px solid rgba(255,255,255, .065);
     color: #999;
-    letter-spacing: 1px;
+
     cursor: pointer;
 }
 .mobile-on .desktop-nav ul li a:hover,
@@ -1789,7 +1790,7 @@ a.logo:hover{
  */
 
 .main-nav.dark{
-    background-color: rgba(16, 92, 54, .95);
+    background-color: rgba(169, 150, 128, .95);
     
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -1935,7 +1936,7 @@ a.logo:hover{
 .main-nav .tooltip{
     font-size: 12x;
     text-transform: none;
-    letter-spacing: 0;
+
 }
 
 
@@ -2126,7 +2127,7 @@ a.logo:hover{
     padding: 15px 20px;
     color: #999;
     font-size: 17px;
-    letter-spacing: 2px;
+
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
@@ -2277,18 +2278,19 @@ a.logo:hover{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     
-    padding: 50px 0;
+    padding: 25px 0;
 }
-.small-section{
+.small-section:not(.sempadding){
     padding: 70px 0;
 }
+
 .small-title{
     padding: 0;
     margin: 0 0 30px 0;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 300;
-    letter-spacing: 0.3em;
+   
 }
 .section-icon{
     margin-bottom: 7px;
@@ -2414,7 +2416,7 @@ a.logo:hover{
 
 
 .bg-dark{
-    background-color: #337755;
+    background-color: #A99680;
 }
 .bg-dark-lighter{
     background-color: #252525;
@@ -2591,7 +2593,7 @@ a.logo:hover{
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.5em;
+   
     line-height: 1.4;
 }
 .section-more{
@@ -2599,7 +2601,7 @@ a.logo:hover{
     color: #999;
     font-size: 11px;
     font-weight: 500;
-    letter-spacing: 0.4em;
+  
     text-decoration: none;
     
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
@@ -2623,7 +2625,7 @@ a.logo:hover{
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.5em;
+    
     line-height: 1.3;
 }
 .section-line{
@@ -2657,7 +2659,7 @@ a.logo:hover{
     margin-top: -5px;
     font-size: 11px;
     font-weight: 500;
-    letter-spacing: 0.4em;
+    
     text-decoration: none;
     text-transform: uppercase;
     
@@ -2912,13 +2914,13 @@ a.logo:hover{
     margin-top: 23px;
     font-size: 15px;
     text-transform: uppercase;
-    letter-spacing: 0.4em;
+
 }
 .team-item-role{
     margin-top: 4px;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 0.4em;
+   
     color: #aaa;
 }
 .team-social-links{
@@ -3036,7 +3038,7 @@ a.logo:hover{
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.4em;
+    
 }
 .alt-features-descr {
     color: #1E1E1E;
@@ -3198,7 +3200,7 @@ a.logo:hover{
     font-size: 13px;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.4em;
+  
     color: #555;
     cursor: default;
 }
@@ -3310,7 +3312,7 @@ a.logo:hover{
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    
     line-height: 1.2;
 }
 .work-descr{    
@@ -3458,8 +3460,7 @@ a.logo:hover{
     background: #fff;    
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 2px;    
-    
+  
     z-index: 99;
 }
 .work-navigation .fa{
@@ -3510,7 +3511,7 @@ a.logo:hover{
     background: #fff;
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+   
     color: #151515; 
 }
 .work-prev{
@@ -3532,7 +3533,7 @@ a.logo:hover{
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 1px;
+    
 }
 .work-full-media{
     margin-top: 30px;
@@ -3559,7 +3560,7 @@ a.logo:hover{
 .work-full-detail{
     font-size: 11px;
     color: #1E1E1E;
-    letter-spacing: 1px;
+     
     text-transform: uppercase;
 }
 .work-full-detail p{ 
@@ -3596,7 +3597,7 @@ a.logo:hover{
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: 300;
-    letter-spacing: 0.3em;
+  
     text-transform: uppercase;
     color: rgba(255,255,255, 0.9);
 }
@@ -3623,7 +3624,7 @@ a.logo:hover{
 
 .testimonial{
     margin: 0;
-    padding: 0;
+    padding: 50px 0;
     background: none;
     border: none;
     text-align: center;
@@ -3631,14 +3632,14 @@ a.logo:hover{
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 0;
     opacity: .85;
 }
 .testimonial p{
     font-size: 18px;
+    text-align: justify
 }
 .testimonial-author{
-
+    letter-spacing: 5px
 }
 
 /*
@@ -3701,7 +3702,7 @@ a.logo:hover{
     margin-bottom: 6px;
     font-size: 15px;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    
 }
 .post-prev-title a{
     color: #1E1E1E;
@@ -3751,7 +3752,7 @@ a.logo:hover{
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
+   
 }
 .form input.newsletter-field{
     max-width: 293px;
@@ -3858,7 +3859,7 @@ a.logo:hover{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
+   
 }
 .ci-text{
     font-size: 15px;
@@ -3979,7 +3980,7 @@ a.logo:hover{
     margin-left: 12px;
     font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: 0.3em;
+    
     color: rgba(255,255,255, .75);
 }
 .mt-close{
@@ -4032,7 +4033,7 @@ a.logo:hover{
 .footer-copy{
     margin-bottom: 5px;
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+ 
 }
 .footer-made{
     font-size: 11px;
@@ -4129,7 +4130,7 @@ a.link-to-top{
     left: -130px;
     font-size: 12px;
     font-weight: 300;
-    letter-spacing: 1px;
+  
     line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
@@ -4171,8 +4172,7 @@ a.link-to-top{
 .blog-item-data{
     margin-bottom: 30px;
     text-transform: uppercase;
-    font-size: 11px;
-    letter-spacing: 1px;
+    font-size: 11px;   
     color: #aaa;
 }
 .separator{
@@ -4195,7 +4195,7 @@ a.link-to-top{
     margin-top: 10px;
     text-transform: uppercase;
     font-size: 11px;
-    letter-spacing: 1px;
+    
     color: #aaa;
 }
 .blog-item-body{
@@ -4220,8 +4220,7 @@ a.link-to-top{
     font-weight: 500;
     text-transform: uppercase;
     color: #1E1E1E;
-    letter-spacing: 1px;
-    
+ 
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4253,7 +4252,7 @@ a.blog-item-more:hover{
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: 0;
+ 
 }
 .blog-item-q p a{
     color: #555;
@@ -4527,7 +4526,7 @@ a.blog-item-more:hover{
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 1px;
+     
     
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
@@ -4665,7 +4664,7 @@ table.shopping-cart-table tr td{
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
+  
     z-index: 1;
 }
 .pr-list{
@@ -4676,7 +4675,7 @@ table.shopping-cart-table tr td{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;    
-    letter-spacing: 2px;
+
 }
 .pr-list li{
     padding: 12px 20px;
@@ -4771,7 +4770,7 @@ table.shopping-cart-table tr td{
     top: 17px;
     left: 0;
     
-    background: #105C36;
+    background: #8DC63F;
     
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -4986,7 +4985,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px;    
+       
 }
 .tpl-tabs > li > a{
     text-decoration: none;
@@ -5017,7 +5016,7 @@ section:hover .small-item-carousel .owl-next{
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 1px;    
+      
     border: none;
 }
 .tpl-minimal-tabs > li{
@@ -5060,7 +5059,7 @@ section:hover .small-item-carousel .owl-next{
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.4em;    
+  
     border: none;
 }
 .tpl-alt-tabs > li{
@@ -5097,7 +5096,7 @@ section:hover .small-item-carousel .owl-next{
     display: block;
     margin-bottom: 12px;
     font-size: 48px;
-    letter-spacing: 0;
+    
 }
 .tpl-minimal-tabs-cont{
 }
@@ -5117,7 +5116,7 @@ section:hover .small-item-carousel .owl-next{
     
     border: 1px solid #ddd;
     font-size: 11px;
-    letter-spacing: 1px;
+
     text-transform: uppercase;
     color: #1E1E1E;
     
@@ -5153,7 +5152,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+   
 }
 .accordion > dt > a{
     display: block;
@@ -5234,7 +5233,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+  
 }
 .toggle > dt > a{
     display: block;
@@ -5312,7 +5311,7 @@ section:hover .small-item-carousel .owl-next{
     margin-bottom: 50px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px;
+
     overflow: visible;
     height: 2px;
     background: #f0f0f0;
@@ -5348,7 +5347,7 @@ section:hover .small-item-carousel .owl-next{
 
     text-align: center;
     line-height: 23px;
-    letter-spacing: 0;
+    
     
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -5384,7 +5383,7 @@ section:hover .small-item-carousel .owl-next{
     background-color: #222;
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+  
     color: #fff;
     text-align: left;
     -moz-box-sizing: border-box;
@@ -5492,7 +5491,7 @@ section:hover .small-item-carousel .owl-next{
     right: 10px;
     font-size: 17px;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+  
 }
 .label-new{
     background: #f32929;
@@ -5501,7 +5500,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 9px;
     font-weight: 700; 
     text-transform: uppercase;
-    letter-spacing: 1px;
+  
 }
 .label-for-button{
     position: absolute;
@@ -5519,7 +5518,7 @@ section:hover .small-item-carousel .owl-next{
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 1px;
+  
     line-height: 50px;
     background: #f32929;
     
@@ -5543,7 +5542,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 25px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+ 
     line-height: 1.8;
 }
 
@@ -5608,7 +5607,7 @@ section:hover .small-item-carousel .owl-next{
     text-transform: uppercase;
     text-align: center;
     font-size: 11px;
-    letter-spacing: 1px;
+ 
     color: rgba(255,255,255, .75);
     
     -webkit-box-sizing: border-box;
@@ -5629,7 +5628,7 @@ section:hover .small-item-carousel .owl-next{
     margin-bottom: 6px;
     font-size: 16px;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+
 }
 .blog-slide-title a{
     display: block;
@@ -5648,7 +5647,7 @@ section:hover .small-item-carousel .owl-next{
 .blog-slide-data{
     text-transform: uppercase;
     font-size: 11px;
-    letter-spacing: 1px;
+   
 }
 .blog-slide-data a{
     color: rgba(255,255,255, .65);
@@ -5721,7 +5720,7 @@ section:hover .small-item-carousel .owl-next{
 .db-title{
     display: block;
     font-size: 12px;
-    letter-spacing: 1px;
+   
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -5996,7 +5995,7 @@ section:hover .small-item-carousel .owl-next{
     padding: 15px 20px;
     color: #999;
     font-size: 14px;
-    letter-spacing: 2px;
+   
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
@@ -6262,7 +6261,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 10px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px;
+ 
     line-height: 1;
     color: #999;
     z-index: 2;
@@ -6358,4 +6357,98 @@ section:hover .small-item-carousel .owl-next{
     .multi-columns-row .col-lg-3:nth-child(4n + 5) { clear: left; }
     .multi-columns-row .col-lg-2:nth-child(6n + 7) { clear: left; }
     .multi-columns-row .col-lg-1:nth-child(12n + 13) { clear: left; }
+}
+.color-green {
+    color:#9ACC57 !important
+}
+.special-margin {
+    margin: 5px 5px 0 0
+}
+.fa-info-circle {
+    font-size: 18px; 
+    margin: 10px 5px
+}
+.bordered {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+table .tooltips {
+    color: #64A901;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px
+}
+.filtro-chave {
+ width: 100%;
+ float: left;
+ clear: both
+}
+.filtro-chave td:nth-child(1){
+   width: 35%;
+   padding-bottom: 2px
+}
+.filtro-chave td:nth-child(2){
+   width: 61%;
+       padding-bottom: 2px
+}
+.filtro-chave td:nth-child(3){
+  width: 4%;
+   text-align: right;
+   padding-bottom: 2px
+}
+.filtro-chave input[type="text"], .filtro-chave button{
+    border-radius: 0
+}
+.select2, .select2-container, .select2-container--default, .select2-container--focus {
+    width: 100% !important
+}
+.historias .checkbox{
+    padding-left: 20px
+}
+.historias label{
+    font-weight: 500;
+    color: #64A901;
+    font-size: 13px;
+    cursor: pointer
+}
+.normal-color label{
+    font-weight: 500;
+    color: inherit;
+    font-size: 13px;
+    cursor: pointer
+}
+.historias input[type="radio"]{
+  margin: 0 5px
+}
+.right-bordered {
+    border-right: 1px solid #ccc
+}
+.table-dd *:not(thead){
+    font-weight: 600
+}
+.table-dd thead * {
+    background: #fff;
+    color: #111111;
+    text-align: center
+}
+.table-dd tr:nth-child(1), .table-dd tr:nth-child(1) a{
+  background:   #339900;
+  color: #fff;
+}
+.table-dd tr:nth-child(2), .table-dd tr:nth-child(2) a{
+  background: #D29D00
+}
+.table-dd tr:nth-child(3), .table-dd tr:nth-child(3) a{
+  background: #FF0000;
+      color: #fff
+}
+.table-dd tr:nth-child(4), .table-dd tr:nth-child(4) a{
+  background: #111183;
+  color: #fff
+}
+.table-dd tr:nth-child(5), .table-dd tr:nth-child(5) a{
+  background: #666666;
+  color: #fff
 }
