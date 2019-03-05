@@ -9,15 +9,33 @@
     /* ---------------------------------------------
      Scripts initialization
      --------------------------------------------- */
+    $('.validRecaptcha').click(function () {
+        var $captcha = $('#recaptcha, #recaptcha1'),
+                response = grecaptcha.getResponse();
 
+        if (response.length === 0) {
+            $('.msg-error').text("O reCaptcha é obrigatório");
+            if (!$captcha.hasClass("error")) {
+                $captcha.addClass("error");
+            }
+        } else {
+            $('.msg-error').text('');
+            $captcha.removeClass("error");
+            alert('Ok! Você não é um robô.');
+        }
+    });
     $(window).load(function () {
-       
 
 
-        $("#japossuo").click(function () {
+
+        $("#japossuo").on("click", function () {
+            $("#senha_c").removeData("rule-required");
+            $("#senha_c").removeData("rule-minlength");
             $("#escolhaSenha").hide("fast");
         });
         $("#naopossuo").click(function () {
+            $("#senha_c").data("rule-required", "true");
+            $("#senha_c").data("rule-minlength", "8");
             $("#escolhaSenha").show("fast");
         });
 
@@ -29,7 +47,7 @@
         });
 
 
-        
+
         init_scroll_navigate();
 
         $(window).trigger("scroll");
@@ -60,7 +78,7 @@
         initPageSliders();
         init_map();
         init_wow();
-       
+
     });
 
     $(window).resize(function () {

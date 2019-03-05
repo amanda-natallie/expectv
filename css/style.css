@@ -6722,3 +6722,46 @@ th {
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px
 }
+.with-bullets {
+    margin-left: -30px
+}
+.with-bullets li:not(:last-of-type) {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding-bottom: 10px
+}
+.with-bullets li:before {
+   display: inline-block;
+    content: '';
+    -webkit-border-radius: 0.375rem;
+    border-radius: 0.375rem;
+    height: 0.85rem;
+    width: 0.85rem;
+    margin-right: 0.5rem;
+    background: #339900
+}
+.msg-error {
+  color: #c65848;
+}
+.g-recaptcha{
+   margin: 15px auto !important;
+   width: auto !important;
+   height: auto !important;
+   text-align: -webkit-center;
+   text-align: -moz-center;
+   text-align: -o-center;
+   text-align: -ms-center;
+}
+.g-recaptcha.error {
+  border: solid 2px #c64848;
+  padding: .2em;
+  width: 19em;
+}
+.letter-spacing1 {
+    letter-spacing: 11px;
+    font-weight: 800
+}
+.letter-spacing2 {
+    letter-spacing: 2px
+}
