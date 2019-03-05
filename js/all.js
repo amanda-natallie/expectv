@@ -29,7 +29,7 @@
         });
 
 
-        initWorkFilter();
+        
         init_scroll_navigate();
 
         $(window).trigger("scroll");
@@ -60,7 +60,7 @@
         initPageSliders();
         init_map();
         init_wow();
-        init_masonry();
+       
     });
 
     $(window).resize(function () {

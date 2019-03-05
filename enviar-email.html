@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enviar clipping por email - ExpecTV</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta charset="utf-8">
+        <meta name="author" content="Vallori Creative & Marketing - https://www.valloritecnologia.com.br">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-responsive.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/vertical-rhythm.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/remodal-default-theme.css">
+        <link rel="stylesheet" href="css/remodal.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="page" id="top" style="background: #ccc; padding-bottom: 20px; margin-bottom: 20px">
+            <a href="" class="logo" style="margin: 30px auto; display: table">
+                <img src="images/logo-dark.png" alt="" />
+            </a>
+        </div>
+
+
+            <div class="container relative forms mb-40">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>Seus Dados:</h4>
+                        <p>Nome: DESIGNER Cleberson CRIATIVIN </p>
+                        <p>E-mail: criativin@expectv.com.br </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <dl class="accordion">
+                            <dt class="fake-button" onclick="mostraDiv('#endManual')">Digite os endereços de e-mails manualmente:</dt>
+                            <dd id="endManual" style="display: none">
+                                <form class="form contact-form" id="contact_form">
+                                    <div class="clearfix">
+                                        <div class="form-group">
+                                            <label>E-mails*:</label>
+                                            <textarea name="email" id="email" class="input-md round form-control" placeholder=""></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Assunto:</label>
+                                            <input type="text" name="name" id="name" class="input-md round form-control" placeholder="Nome" pattern=".{3,100}" required>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix">
+                                        <div class="cf-left-col">
+                                            <div class="form-tip pt-20">
+                                                <i class="fa fa-info-circle"></i> todos os campos são obrigatórios
+                                            </div>
+                                        </div>
+                                        <div class="cf-right-col">
+                                            <div class="align-right pt-10">
+                                                <button class="submit_btn btn btn-mod btn-medium btn-round" id="submit_btn">Enviar Mensagem</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </dd>
+                            <dt class="fake-button" onclick="mostraDiv('#endCarregar')">Carregue um arquivo com endereços de e-mails separados por ponto e vírgula (;):</dt>
+                            <dd id="endCarregar" style="display: none">
+                                <form class="form contact-form" id="contact_form">
+                                    <div class="clearfix">
+                                        <div class="form-group">
+                                            <label>Arquivo*:</label>
+                                            <input type="file" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Assunto:</label>
+                                            <input type="text" name="estado" id="estado" class="input-md round form-control" placeholder="Estado" pattern=".{5,100}" required>
+                                        </div>
+                                        <div class="align-right pt-10">
+                                            <button class="submit_btn btn btn-mod btn-medium btn-round" id="submit_btn">Enviar Mensagem</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <script type="text/javascript">
+                                                    $(function () {
+                                                        $('[data-toggle="tooltip"]').tooltip();
+                                                    });
+                                                    $(document).ready(function () {
+                                                        $('.multiple-selects').select2();
+                                                    });
+                                                    function mostraDiv(id) {
+                                                        $(id).toggle('fast');
+                                                    }
+
+                                                    function existingTag(text)
+                                                    {
+                                                        var existing = false,
+                                                                text = text.toLowerCase();
+
+                                                        $(".tags").each(function () {
+                                                            if ($(this).text().toLowerCase() == text)
+                                                            {
+                                                                existing = true;
+                                                                return "";
+                                                            }
+                                                        });
+
+                                                        return existing;
+                                                    }
+
+                                                    $(function () {
+                                                        $(".tags-new input").focus();
+
+                                                        $(".tags-new input").keyup(function () {
+
+                                                            var tag = $(this).val().trim(),
+                                                                    length = tag.length;
+
+                                                            if ((tag.charAt(length - 1) == ',') && (tag != ","))
+                                                            {
+                                                                tag = tag.substring(0, length - 1);
+
+                                                                if (!existingTag(tag))
+                                                                {
+                                                                    $('<li class="tags"><span>' + tag + '</span><i class="fa fa-times"></i></i></li>').insertBefore($(".tags-new"));
+                                                                    $(this).val("");
+                                                                } else
+                                                                {
+                                                                    $(this).val(tag);
+                                                                }
+                                                            }
+                                                        });
+
+                                                        $(document).on("click", ".tags i", function () {
+                                                            $(this).parent("li").remove();
+                                                        });
+
+                                                    });
+                                                    $(function () {
+
+                                                        var
+                                                                w = 770,
+                                                                h = 600,
+                                                                l = (screen.availWidth - w) / 2,
+                                                                t = (screen.availHeight - h) / 2,
+                                                                popPage = '.popup';
+
+                                                        $(popPage).on('click', function (event) {
+                                                            window.open(this.href, "window", "width= " + w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
+                                                            return false;
+                                                        });
+
+                                                    });
+
+        </script>
+        <script type="text/javascript" src="js/SmoothScroll.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
+        <script type="text/javascript" src="js/jquery.viewport.mini.js"></script>
+        <script type="text/javascript" src="js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <script type="text/javascript" src="js/jquery.sticky.js"></script>
+        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/remodal.js"></script>
+        <script type="text/javascript" src="js/all.js"></script>
+        <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+        </div>
+    </body>
+</html>

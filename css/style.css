@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 
 
-  
+
 .align-center{ text-align:center !important; }
 .align-left{ text-align:left !important;}
 .align-right{ text-align:right !important; }
@@ -76,7 +76,7 @@
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 20px;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -172,90 +172,90 @@ img:not([draggable]), embed, object, video{
     border-right: 1px solid rgba(0,0,0, 0.08);
     border-bottom: 1px solid rgba(0,0,0, 0.08);
     border-left: 1px solid rgba(0,0,0, 0.5);
-  
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-  
+
     -webkit-animation: spinner 700ms infinite linear;
     -moz-animation: spinner 700ms infinite linear;
     -ms-animation: spinner 700ms infinite linear;
     -o-animation: spinner 700ms infinite linear;
     animation: spinner 700ms infinite linear;
-  
+
     z-index: 100001;
 }
 
 @-webkit-keyframes spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 
-  100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 @-moz-keyframes spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 
-  100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 @-o-keyframes spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 
-  100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 
-  100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -285,7 +285,7 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 1.3em;
     line-height: 1.4;
     font-weight: 700;
-   
+
 }
 h1{
     font-size: 32px;
@@ -322,7 +322,7 @@ blockquote footer{
     font-size: 11px;
     font-weight: 500;
     text-transform: uppercase;
- 
+
 }
 dl dt{
     margin-bottom: 5px;
@@ -348,12 +348,12 @@ hr.black{
 }
 .uppercase{
     text-transform: uppercase;
-   
+
 }
 .font-alt{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    
+
 }
 .serif{
     font-family: "Times New Roman", Times, serif;
@@ -404,11 +404,11 @@ hr.black{
     line-height: 88px;
     font-size: 32px;
     color: rgba(255,255,255, .97);
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -436,7 +436,7 @@ hr.black{
 .big-icon-link:hover .big-icon{
     border-color: #fff;
     color: #fff;
-    
+
     -webkit-transition: 0 none !important;  
     -moz-transition: 0 none !important;  
     -ms-transition: 0 none !important;
@@ -456,11 +456,11 @@ hr.black{
     margin-bottom: 10px;
     font-size: 48px;
     font-weight: 500;
-  
+
     text-align: center;
     text-transform: uppercase;
     opacity: .9;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -506,7 +506,7 @@ hr.black{
 /* ==============================
    Buttons
    ============================== */
-  
+
 .btn-mod,
 a.btn-mod{
     -webkit-box-sizing: border-box;
@@ -521,15 +521,15 @@ a.btn-mod{
     text-transform: uppercase;
     text-decoration: none;
 
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    
+
     -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -558,7 +558,7 @@ a.btn-mod:focus{
     height: auto;
     padding: 6px 17px;
     font-size: 11px;
-  
+
 } 
 .btn-mod.btn-medium{
     height: auto;
@@ -687,7 +687,7 @@ a.btn-mod:focus{
     color: #1E1E1E;
     font-size: 48px;
     opacity: .2;
-    
+
     -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -696,7 +696,7 @@ a.btn-mod:focus{
 }
 .btn-icon:hover > span{
     opacity: 0;
-    
+
     -webkit-transform: scale(2);
     -moz-transform: scale(2);
     -o-transform: scale(2);
@@ -734,24 +734,24 @@ a.btn-mod:focus{
     font-size: 11px;
     font-weight: 500;
     text-transform: uppercase;
-  
+
     color: #1E1E1E;
     border: 1px solid rgba(0,0,0, .1);
     padding-left: 7px;
     padding-right: 7px;
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -788,7 +788,7 @@ a.btn-mod:focus{
 .form select:focus{
     color: #111;
     border-color: rgba(0,0,0, .7);
-    
+
     -webkit-box-shadow: 0 0 3px rgba(0,0,0, .3);
     -moz-box-shadow: 0 0 3px rgba(0,0,0, .3);
     box-shadow: 0 0 3px rgba(0,0,0, .3);
@@ -842,15 +842,15 @@ a.btn-mod:focus{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase !important;
-  
+
     color: #1E1E1E;
     border-color: rgba(0,0,0, .1);
     outline: none;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -900,7 +900,7 @@ a.btn-mod:focus{
 /* ==============================
    Home sections
    ============================== */
-  
+
 /*
  * Header common styles
  */
@@ -970,7 +970,7 @@ a.btn-mod:focus{
     left: 50%;
     text-align: center;
     text-decoration: none;
-    
+
     -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
     -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
     -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
@@ -988,22 +988,22 @@ a.btn-mod:focus{
     bottom: 0;
     left: 50%;
     background: #fff;
-    
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
+
     -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
     -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
     -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
     transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
-    
+
     z-index: 1;
 }
 
@@ -1027,9 +1027,9 @@ a.btn-mod:focus{
     -moz-animation: scroll-down-anim 1s infinite;
     -o-animation: scroll-down-anim 1s infinite;
     animation: scroll-down-anim 1s infinite; 
-    
-   
-   z-index: 2;
+
+
+    z-index: 2;
 }
 
 
@@ -1079,11 +1079,11 @@ a.bg-video-button-muted{
     padding: 47px 30px 53px;
     position: relative;
     text-align: center;    
-    
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     border: 1px solid rgba(255,255,255, .5);
 }
 
@@ -1092,7 +1092,7 @@ a.bg-video-button-muted{
     margin: 0 auto;
     position: relative;
     text-align: center;
-    
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -1123,7 +1123,7 @@ a.bg-video-button-muted{
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
- 
+
     color: rgba(255,255,255, .7);
 }
 
@@ -1143,7 +1143,7 @@ a.bg-video-button-muted{
     font-weight: 500;
     line-height: 1.2;
     text-transform: uppercase;
- 
+
     opacity: .85;
 }
 .hs-line-6{
@@ -1163,7 +1163,7 @@ a.bg-video-button-muted{
     font-size: 64px;
     font-weight: 800;
     text-transform: uppercase;
-  
+
     line-height: 1.2;
 }
 .hs-line-8{
@@ -1185,7 +1185,7 @@ a.bg-video-button-muted{
     font-size: 96px;
     font-weight: 800;
     text-transform: uppercase;
- 
+
     line-height: 1.2;
 }
 .hs-line-10{
@@ -1229,7 +1229,7 @@ a.bg-video-button-muted{
     font-weight: 500;
     line-height: 1.2;
     text-transform: uppercase;
-  
+
 }
 .hs-line-13{
     margin-top: 0;
@@ -1238,7 +1238,7 @@ a.bg-video-button-muted{
     font-weight: 500;
     line-height: 1;
     text-transform: uppercase;
-  
+
 }
 .hs-line-14{
     margin-top: 0;
@@ -1247,7 +1247,7 @@ a.bg-video-button-muted{
     font-weight: 500;
     line-height: 1.4;
     text-transform: uppercase;
-   
+
 }
 .hs-line-15{
     margin-top: 0;
@@ -1255,7 +1255,7 @@ a.bg-video-button-muted{
     font-size: 36px;
     font-weight: 500;
     text-transform: uppercase;
-  
+
     line-height: 1.3;
 }
 .no-transp{
@@ -1273,13 +1273,13 @@ a.bg-video-button-muted{
 /* ==============================
    Top bar
    ============================== */
-  
+
 .top-bar{
     min-height: 40px;
     background: #fbfbfb;
     border-bottom: 1px solid rgba(0,0,0, .05);
     font-size: 11px;
-  
+
 }
 
 /*
@@ -1306,9 +1306,9 @@ a.bg-video-button-muted{
 }
 .top-links li .tooltip{
     text-transform: none;
-  
+
     z-index: 2003;
-    
+
 }
 .top-links li a{
     display: block;
@@ -1319,11 +1319,11 @@ a.bg-video-button-muted{
     text-decoration: none;
     text-align: center;
     color: #999;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     -webkit-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1372,7 +1372,7 @@ a.bg-video-button-muted{
     vertical-align: middle;
     max-width: 118px;
     height: 75px;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1392,7 +1392,7 @@ a.logo:hover{
     font-size: 18px;
     font-weight: 400 !important;
     text-transform: uppercase;
-   
+
     text-decoration: none;
     color: rgba(0,0,0, .9);
 }
@@ -1409,13 +1409,13 @@ a.logo:hover{
     left: 0;
     text-align: left;
     background: rgba(255,255,255, .97);
-    
+
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
     -moz-box-shadow: 0 1px 0 rgba(0,0,0,.05);
     box-shadow:  0 1px 0 rgba(0,0,0,.05);
-    
+
     z-index: 1030;
-    
+
     -webkit-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: height 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1456,7 +1456,7 @@ a.logo:hover{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1468,11 +1468,11 @@ a.logo:hover{
 }  
 .inner-nav ul li a:hover,
 .inner-nav ul li a.active{
-    
+
     color: #fff !important;
     text-decoration: none;
-   border-bottom: 1px solid #fff;
-   font-weight: 800
+    border-bottom: 1px solid #fff;
+    font-weight: 800
 }
 
 
@@ -1508,7 +1508,7 @@ a.logo:hover{
     text-transform: none;    
     border-left: none;
     border-right: none;
- 
+
     color: #b0b0b0 !important;
     cursor: pointer;
 }
@@ -1616,7 +1616,7 @@ a.logo:hover{
     top: 100%;
     left: 0;
     padding: 0 15px;
-    
+
     z-index: 100;    
 }
 .mobile-on .full-wrapper .desktop-nav{
@@ -1681,7 +1681,7 @@ a.logo:hover{
     margin-top: -8px;
     text-align: center;
     border: 1px solid rgba(255,255,255, .1);
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1726,19 +1726,19 @@ a.logo:hover{
     border-left: 1px solid rgba(0,0,0, .05);
     border-right: 1px solid rgba(0,0,0, .05);
     cursor: pointer;
-    
+
     -webkit-user-select: none;  
     -moz-user-select: none;     
     -ms-user-select: none;     
     -o-user-select: none;
     user-select: none;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     -webkit-transition-property: background, color;
     -moz-transition-property: background, color;
     -o-transition-property: background, color;
@@ -1776,7 +1776,7 @@ a.logo:hover{
     padding: 0;
     text-align: left;
     white-space: normal;
-    
+
 }
 .mobile-on .mn-sub{
     width: 100%;
@@ -1791,7 +1791,7 @@ a.logo:hover{
 
 .main-nav.dark{
     background-color: rgba(169, 150, 128, .95);
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow:  none;
@@ -1916,14 +1916,14 @@ a.logo:hover{
     line-height: 33px;
     text-align: center;
     font-size: 12px;
-    
+
     display: inline-block;
     border: 1px solid rgba(0,0,0, .1);
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -1943,8 +1943,8 @@ a.logo:hover{
 /* ==============================
    Fullscreen menu
    ============================== */
- 
- .fm-logo-wrap{
+
+.fm-logo-wrap{
     position: absolute;
     top: 30px;
     left: 30px;
@@ -1956,20 +1956,20 @@ a.logo:hover{
     max-width: 200px;
     position: relative;
     top: 50%;  
-    
+
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 } 
-  
+
 .fm-button{
     display: block;
     position: fixed;
@@ -1981,11 +1981,11 @@ a.logo:hover{
     opacity: .85;
     text-indent: -12345px;
     z-index: 1030;
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    
+
     -webkit-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2004,7 +2004,7 @@ a.logo:hover{
     top: 50%;
     left: 50%;
     margin: -1px 0 0 -11px;
-    
+
     -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2073,7 +2073,7 @@ a.logo:hover{
     overflow-y: auto;
     background: rgba(10,10,10, .97);
     z-index: 2000;
-    
+
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -2083,13 +2083,13 @@ a.logo:hover{
     width: 100%;
     height: 100%;
     opacity: 0;
-    
+
     -webkit-transform: translateY(30px);
     -moz-transform: translateY(30px);
     -o-transform: translateY(30px);
     -ms-transform: translateY(30px);
     transform: translateY(30px);
-    
+
     -webkit-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2132,15 +2132,15 @@ a.logo:hover{
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-    
+
     -webkit-tap-highlight-color: rgba(255,255,255, .1); 
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     z-index: 11;
 }
 .no-touch .fm-menu-links a:hover,
@@ -2169,7 +2169,7 @@ a.logo:hover{
 }
 
 .fm-has-sub{
-    
+
 }
 .fm-has-sub .fa{
     font-size: 14px;
@@ -2234,11 +2234,11 @@ a.logo:hover{
     text-align: center;    
     text-decoration: none;
     color: #555;
-    
+
     -webkir-border-radius: 50%; 
     -moz-border-radius: 50%; 
     border-radius: 50%; 
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2268,16 +2268,16 @@ a.logo:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     padding: 25px 0;
 }
 .small-section:not(.sempadding){
@@ -2290,7 +2290,7 @@ a.logo:hover{
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 300;
-   
+
 }
 .section-icon{
     margin-bottom: 7px;
@@ -2361,7 +2361,7 @@ a.logo:hover{
 .bg-color-alfa a{
     color: rgba(255,255,255, .8);
     padding-bottom: 3px;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2593,7 +2593,7 @@ a.logo:hover{
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-   
+
     line-height: 1.4;
 }
 .section-more{
@@ -2601,9 +2601,9 @@ a.logo:hover{
     color: #999;
     font-size: 11px;
     font-weight: 500;
-  
+
     text-decoration: none;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2613,7 +2613,7 @@ a.logo:hover{
 .section-more:hover{
     text-decoration: none;
     color: #000;
- 
+
 }
 .section-more .fa{
     font-size: 12px;
@@ -2625,7 +2625,7 @@ a.logo:hover{
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-    
+
     line-height: 1.3;
 }
 .section-line{
@@ -2659,10 +2659,10 @@ a.logo:hover{
     margin-top: -5px;
     font-size: 11px;
     font-weight: 500;
-    
+
     text-decoration: none;
     text-transform: uppercase;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2735,7 +2735,7 @@ a.logo:hover{
     position: relative;
     overflow: hidden;
     text-align: center;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2751,7 +2751,7 @@ a.logo:hover{
     padding-left: 10px;
     padding-right: 10px;
     vertical-align: middle;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2762,7 +2762,7 @@ a.logo:hover{
     width: 50%;
     position: relative;
     overflow: hidden;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2795,13 +2795,13 @@ a.logo:hover{
     font-size: 13px;
     font-weight: 300;
     color: #999;
-    
+
     -webkit-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     -moz-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     -o-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     -ms-transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     transform: perspective(500px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-    
+
     -webkit-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.3s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2818,7 +2818,7 @@ a.logo:hover{
     text-align: center;
     font-size: 28px;
     color: #111;
-    
+
     -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2840,10 +2840,10 @@ a.logo:hover{
    ============================== */
 
 .team-grid{
-    
+
 }
 .team-item{
-    
+
 }
 .team-item-image{
     position: relative;
@@ -2861,9 +2861,9 @@ a.logo:hover{
     top: 0;
     left: 0;
     background: transparent;
-    
+
     z-index: 1;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2883,16 +2883,16 @@ a.logo:hover{
     color: #1E1E1E;
     text-align: center;
     z-index: 2;
-    
+
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     transform: translateY(-50%);
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2920,7 +2920,7 @@ a.logo:hover{
     margin-top: 4px;
     font-size: 12px;
     text-transform: uppercase;
-   
+
     color: #aaa;
 }
 .team-social-links{
@@ -2931,7 +2931,7 @@ a.logo:hover{
     display: inline-block;
     padding: 3px 7px;
     color: rgba(0,0,0, .4);
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -2977,7 +2977,7 @@ a.logo:hover{
 .features-item{
     padding: 15px;
     text-align: center;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3038,7 +3038,7 @@ a.logo:hover{
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
-    
+
 }
 .alt-features-descr {
     color: #1E1E1E;
@@ -3080,7 +3080,7 @@ a.logo:hover{
     text-align: center;
     line-height: 1;
     color: rgba(0,0,0, .025);
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -3116,13 +3116,13 @@ a.logo:hover{
     left: 0;
     background: rgba(0,0,0, .015);    
     opacity: 0;    
-    
+
     -webkit-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     -o-transform: scale(0.5);
@@ -3146,7 +3146,7 @@ a.logo:hover{
     transform: scale(0.75);
 }
 
-  
+
 
 /* ==============================
    Counters
@@ -3200,7 +3200,7 @@ a.logo:hover{
     font-size: 13px;
     text-transform: uppercase;
     text-align: center;
-  
+
     color: #555;
     cursor: default;
 }
@@ -3209,13 +3209,13 @@ a.logo:hover{
     margin: 0 27px;
     color: #999;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.37s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     cursor: pointer;
 }
 .works-filter a:hover{
@@ -3244,7 +3244,7 @@ a.logo:hover{
     width: 25%;
     float: left;
     margin: 0;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -3295,11 +3295,11 @@ a.logo:hover{
     width: 100%;
     height: 84px;
     padding: 20px 20px 0 20px;
-    
+
     -webkit-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     position: absolute;
     bottom: 0;
     left: 0;
@@ -3312,7 +3312,7 @@ a.logo:hover{
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
-    
+
     line-height: 1.2;
 }
 .work-descr{    
@@ -3350,11 +3350,11 @@ a.logo:hover{
     /*bottom: auto;*/
     /*top: 50%;*/
     color: #fff;
-    
+
     -webkit-transform: translateY(-99px);
     -moz-transform: translateY(-99px);
     transform: translateY(-99px);    
-    
+
     z-index: 3; 
 }
 .work-item:hover .work-title{
@@ -3372,13 +3372,13 @@ a.logo:hover{
     top: 0;
     left: 0;
     background: rgba(250,250,250, 0);
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    
+
 }
 .work-item:hover .work-img:after{    
     background: rgba(20,20,20, .85);
@@ -3460,7 +3460,7 @@ a.logo:hover{
     background: #fff;    
     font-size: 11px;
     text-transform: uppercase;
-  
+
     z-index: 99;
 }
 .work-navigation .fa{
@@ -3495,7 +3495,7 @@ a.logo:hover{
     padding: 0 4%;
     background: #fff;
     cursor: pointer;
-    
+
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -3511,7 +3511,7 @@ a.logo:hover{
     background: #fff;
     font-size: 11px;
     text-transform: uppercase;
-   
+
     color: #151515; 
 }
 .work-prev{
@@ -3533,7 +3533,7 @@ a.logo:hover{
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    
+
 }
 .work-full-media{
     margin-top: 30px;
@@ -3560,7 +3560,7 @@ a.logo:hover{
 .work-full-detail{
     font-size: 11px;
     color: #1E1E1E;
-     
+
     text-transform: uppercase;
 }
 .work-full-detail p{ 
@@ -3597,7 +3597,7 @@ a.logo:hover{
     margin-bottom: 20px;
     font-size: 18px;
     font-weight: 300;
-  
+
     text-transform: uppercase;
     color: rgba(255,255,255, 0.9);
 }
@@ -3614,7 +3614,7 @@ a.logo:hover{
     text-align: right;
 }
 .banner-image img{
-    
+
 }
 
 
@@ -3650,13 +3650,13 @@ a.logo:hover{
     height: 80px;
     text-align: center;
     opacity: .75;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    
+
 }
 .logo-item:hover{
     opacity: 1;
@@ -3664,7 +3664,7 @@ a.logo:hover{
 .logo-item img{
     position: relative;
     top: 50%;
-    
+
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
@@ -3679,7 +3679,7 @@ a.logo:hover{
    ============================== */
 
 .post-grid{
-    
+
 }
 .post-prev-img{
     margin-bottom: 23px;
@@ -3702,12 +3702,12 @@ a.logo:hover{
     margin-bottom: 6px;
     font-size: 15px;
     text-transform: uppercase;
-    
+
 }
 .post-prev-title a{
     color: #1E1E1E;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -3723,7 +3723,7 @@ a.logo:hover{
     font-size: 11px;
     text-decoration: none;
     color: #aaa;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -3752,16 +3752,16 @@ a.logo:hover{
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-   
+
 }
 .form input.newsletter-field{
     max-width: 293px;
 }
 .form input.newsletter-field:hover{
-    
+
 }
 .form input.newsletter-field:focus{
-    
+
 }
 
 .form input.newsletter-field::-webkit-input-placeholder{
@@ -3801,7 +3801,7 @@ a.logo:hover{
     position: relative;
     padding-left: 44px;
     color: #444;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -3837,17 +3837,17 @@ a.logo:hover{
     top: 0;
     left: 0;
     background: #111;
-    
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
+
 }
 .ci-icon i,
 .ci-icon span{
@@ -3859,7 +3859,7 @@ a.logo:hover{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-   
+
 }
 .ci-text{
     font-size: 15px;
@@ -3891,21 +3891,21 @@ a.logo:hover{
 
 .google-map{
     position: relative;
-	background: #111;
+    background: #111;
 }
 .google-map > iframe{
     display: block;
     width:100%;
     height: 410px;
     position: relative;
-	background-color: #111 !important;
+    background-color: #111 !important;
     z-index: 1;
 }
 .gm-style-cc{
-	display: none !important;
+    display: none !important;
 }
 .gm-style-iw div{
-	color: #1E1E1E;
+    color: #1E1E1E;
 }
 .map-section{
     width: 100%;
@@ -3917,7 +3917,7 @@ a.logo:hover{
     background: rgba(17,17,17, .93);
     z-index: 2;
     cursor: pointer;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -3944,7 +3944,7 @@ a.logo:hover{
     margin: 6px auto 25px;
     position: relative;
     color: #111;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -3960,17 +3960,17 @@ a.logo:hover{
     top: 0;
     left: 0;
     background: #fff;
-    
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
+
 }
 .mt-icon i,
 .mt-icon span{
@@ -3980,7 +3980,7 @@ a.logo:hover{
     margin-left: 12px;
     font-size: 16px;
     text-transform: uppercase;
-    
+
     color: rgba(255,255,255, .75);
 }
 .mt-close{
@@ -4019,7 +4019,7 @@ a.logo:hover{
 .footer a{
     color: #888;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -4028,12 +4028,12 @@ a.logo:hover{
 }
 .footer a:hover{
     color: #111;
-     text-decoration: underline;
+    text-decoration: underline;
 }
 .footer-copy{
     margin-bottom: 5px;
     text-transform: uppercase;
- 
+
 }
 .footer-made{
     font-size: 11px;
@@ -4053,7 +4053,7 @@ a.logo:hover{
     text-align: center;
     display: inline-block;
     color: #111;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -4075,23 +4075,23 @@ a.logo:hover{
     top: 0;
     left: 0;
     border: 1px solid #111;
-    
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
-    
+
 }
 .footer-social-links a:hover{
     color: #fff;
@@ -4130,13 +4130,13 @@ a.link-to-top{
     left: -130px;
     font-size: 12px;
     font-weight: 300;
-  
+
     line-height: 1.2;
     text-transform: uppercase;
     text-align: center;
     color: #999;
     border-right: 1px solid #eee;
-    
+
 }
 .date-num{
     display: block;
@@ -4195,7 +4195,7 @@ a.link-to-top{
     margin-top: 10px;
     text-transform: uppercase;
     font-size: 11px;
-    
+
     color: #aaa;
 }
 .blog-item-body{
@@ -4220,7 +4220,7 @@ a.link-to-top{
     font-weight: 500;
     text-transform: uppercase;
     color: #1E1E1E;
- 
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4252,7 +4252,7 @@ a.blog-item-more:hover{
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
- 
+
 }
 .blog-item-q p a{
     color: #555;
@@ -4319,7 +4319,7 @@ a.blog-item-more:hover{
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4486,7 +4486,7 @@ a.blog-item-more:hover{
 }
 .widget-menu li{
     padding: 5px 0;
-    
+
 }
 .widget-menu li a{
     color: #555;
@@ -4494,7 +4494,7 @@ a.blog-item-more:hover{
     padding-bottom: 2px;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    
+
     -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4514,7 +4514,7 @@ a.blog-item-more:hover{
 /* Widget tags */
 
 .tags{
-    
+
 }
 .tags a{
     display: inline-block;
@@ -4526,8 +4526,8 @@ a.blog-item-more:hover{
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
-     
-    
+
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4551,7 +4551,7 @@ a.blog-item-more:hover{
 .widget-comments li a{
     color: #555;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4577,7 +4577,7 @@ a.blog-item-more:hover{
     display: block;
     color: #555;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4599,7 +4599,7 @@ a.blog-item-more:hover{
 /* ==============================
    Shop
    ============================== */
-  
+
 .shopping-cart-table{
 
 }
@@ -4624,7 +4624,7 @@ table.shopping-cart-table tr td{
 .pricing-item-inner{
     border: 1px solid #eaeaea;
     vertical-align: middle;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4641,11 +4641,11 @@ table.shopping-cart-table tr td{
 
 .pricing-wrap{
     position: relative;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     padding: 30px 20px;
     text-align: center;
     overflow: hidden;
@@ -4664,13 +4664,13 @@ table.shopping-cart-table tr td{
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
-  
+
     z-index: 1;
 }
 .pr-list{
     margin: 0 -20px 30px;
     padding: 0;
-    
+
     color: #1E1E1E;
     font-size: 12px;
     font-weight: 500;
@@ -4689,7 +4689,7 @@ table.shopping-cart-table tr td{
     font-size: 40px;
     font-weight: 300;
     line-height: 1;
-    
+
 }
 .pricing-num sup{
     font-family: 'Montserrat', sans-serif;
@@ -4745,9 +4745,9 @@ table.shopping-cart-table tr td{
     font-weight: bold;
     text-align: center;
     color: #fff;
-    
+
     z-index: 6;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4769,23 +4769,23 @@ table.shopping-cart-table tr td{
     position: absolute;
     top: 17px;
     left: 0;
-    
+
     background: #8DC63F;
-    
+
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    
+
     -webkit-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     -moz-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4804,7 +4804,7 @@ table.shopping-cart-table tr td{
 .owl-next:hover{    
     -webkit-transition: 0 none !important;  
     -moz-transition: 0 none !important;  
-     -ms-transition: 0 none !important;
+    -ms-transition: 0 none !important;
     -o-transition: 0 none !important;    
     transition:0 none !important;  
 }
@@ -4844,15 +4844,15 @@ table.shopping-cart-table tr td{
     background: rgba(255,255,255, .7);
     position: relative;
     z-index: 1000 !important;
-    
+
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    
+
     -webkit-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     -moz-box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
     box-shadow: 1px 1px 0px rgba(0, 0, 0, .1);
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -4865,7 +4865,7 @@ table.shopping-cart-table tr td{
 .owl-page.active span{    
     background: transparent;
     bordeR: 1px solid rgba(255,255,255, .8);
-    
+
     -webkit-transform: scale(1.3333333);
     -moz-transform: scale(1.3333333);
     -o-transform: scale(1.3333333);
@@ -4915,7 +4915,7 @@ section:hover .item-carousel.owl-carousel .owl-next{
 .single-carousel.black .owl-page span,
 .small-item-carousel.black .owl-page span{
     background: rgba(0,0,0, .15);
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -4935,7 +4935,7 @@ section:hover .item-carousel.owl-carousel .owl-next{
 .small-item-carousel.black .owl-next{
     color: rgba(0,0,0, .2);
     text-shadow: none;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -4971,7 +4971,7 @@ section:hover .small-item-carousel .owl-next{
 }
 .black-arrows .owl-prev:before,
 .black-arrows .owl-next:before{
-        background: rgba(0,0,0, 1);
+    background: rgba(0,0,0, 1);
 }
 
 
@@ -4985,7 +4985,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-       
+
 }
 .tpl-tabs > li > a{
     text-decoration: none;
@@ -5016,7 +5016,7 @@ section:hover .small-item-carousel .owl-next{
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-      
+
     border: none;
 }
 .tpl-minimal-tabs > li{
@@ -5029,7 +5029,7 @@ section:hover .small-item-carousel .owl-next{
     color: #000;
     background: none;
     border: 1px solid transparent;
-    
+
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -5059,7 +5059,7 @@ section:hover .small-item-carousel .owl-next{
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
-  
+
     border: none;
 }
 .tpl-alt-tabs > li{
@@ -5069,14 +5069,14 @@ section:hover .small-item-carousel .owl-next{
     float: none;    
     padding: 0;    
     background: none !important;
-    
+
 }
 .tpl-alt-tabs > li > a{
     text-decoration: none;
     color: #a3a3a3;
     background: none !important;
     border: none !important;
-    
+
     -webkit-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
     -moz-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
     -o-transition: all 500ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
@@ -5096,7 +5096,7 @@ section:hover .small-item-carousel .owl-next{
     display: block;
     margin-bottom: 12px;
     font-size: 48px;
-    
+
 }
 .tpl-minimal-tabs-cont{
 }
@@ -5109,21 +5109,21 @@ section:hover .small-item-carousel .owl-next{
 .alert{
     margin: 0 auto 10px;
     padding: 14px 20px; 
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     border: 1px solid #ddd;
     font-size: 11px;
 
     text-transform: uppercase;
     color: #1E1E1E;
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    
+
 }
 .success{
     border-color: #a9e2c2;
@@ -5152,7 +5152,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-   
+
 }
 .accordion > dt > a{
     display: block;
@@ -5161,8 +5161,8 @@ section:hover .small-item-carousel .owl-next{
     text-decoration: none;
     padding: 14px 20px;
     border: 1px solid #e5e5e5;
-    
-    
+
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -5233,7 +5233,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
-  
+
 }
 .toggle > dt > a{
     display: block;
@@ -5242,7 +5242,7 @@ section:hover .small-item-carousel .owl-next{
     text-decoration: none;
     padding: 14px 20px;
     border: 1px solid #e5e5e5;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -5315,11 +5315,11 @@ section:hover .small-item-carousel .owl-next{
     overflow: visible;
     height: 2px;
     background: #f0f0f0;
-    
+
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -5347,8 +5347,8 @@ section:hover .small-item-carousel .owl-next{
 
     text-align: center;
     line-height: 23px;
-    
-    
+
+
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -5366,11 +5366,11 @@ section:hover .small-item-carousel .owl-next{
 /* Alt bar */
 .tpl-progress-alt{
     background: #f2f2f2;
-    
+
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    
+
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -5383,7 +5383,7 @@ section:hover .small-item-carousel .owl-next{
     background-color: #222;
     font-size: 11px;
     text-transform: uppercase;
-  
+
     color: #fff;
     text-align: left;
     -moz-box-sizing: border-box;
@@ -5395,7 +5395,7 @@ section:hover .small-item-carousel .owl-next{
     border-color: #eaeaea;
     background: #fcfcfc;
     color: #555;
-    
+
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -5491,7 +5491,7 @@ section:hover .small-item-carousel .owl-next{
     right: 10px;
     font-size: 17px;
     text-transform: uppercase;
-  
+
 }
 .label-new{
     background: #f32929;
@@ -5500,7 +5500,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 9px;
     font-weight: 700; 
     text-transform: uppercase;
-  
+
 }
 .label-for-button{
     position: absolute;
@@ -5518,10 +5518,10 @@ section:hover .small-item-carousel .owl-next{
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-  
+
     line-height: 50px;
     background: #f32929;
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -5537,12 +5537,12 @@ section:hover .small-item-carousel .owl-next{
  */
 
 .magazine-logo-text{
-   margin-top: 0;
+    margin-top: 0;
     position: relative;
     font-size: 25px;
     font-weight: 500;
     text-transform: uppercase;
- 
+
     line-height: 1.8;
 }
 
@@ -5566,7 +5566,7 @@ section:hover .small-item-carousel .owl-next{
     display: block;
     color: #555;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -5590,13 +5590,13 @@ section:hover .small-item-carousel .owl-next{
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    
+
     -webkit-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -ms-transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     transition: all 5s cubic-bezier(0.000, 0.000, 0.580, 1.000);    
-    
+
 }
 .blog-slide-info{
     width: 100%;
@@ -5607,13 +5607,13 @@ section:hover .small-item-carousel .owl-next{
     text-transform: uppercase;
     text-align: center;
     font-size: 11px;
- 
+
     color: rgba(255,255,255, .75);
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;    
     box-sizing: border-box;
-    
+
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .5)));
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));
@@ -5621,7 +5621,7 @@ section:hover .small-item-carousel .owl-next{
     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));
     background: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .3));
     background-color: rgba(0, 0, 0, 0);
-    
+
     background: rgba(0,0,0, .65);
 }
 .blog-slide-title{
@@ -5634,7 +5634,7 @@ section:hover .small-item-carousel .owl-next{
     display: block;
     color: rgba(255,255,255, .85);
     text-decoration: none;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
@@ -5647,7 +5647,7 @@ section:hover .small-item-carousel .owl-next{
 .blog-slide-data{
     text-transform: uppercase;
     font-size: 11px;
-   
+
 }
 .blog-slide-data a{
     color: rgba(255,255,255, .65);
@@ -5694,7 +5694,7 @@ section:hover .small-item-carousel .owl-next{
     border: 2px solid #111;
     text-align: left;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -5720,7 +5720,7 @@ section:hover .small-item-carousel .owl-next{
 .db-title{
     display: block;
     font-size: 12px;
-   
+
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -5747,9 +5747,9 @@ section:hover .small-item-carousel .owl-next{
     bottom: 0;
     left: 0;
     padding: 60px 0 20px 0;
-    
+
     z-index: 25;
-    
+
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .65)));
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .65));
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, .65));
@@ -5788,7 +5788,7 @@ section:hover .small-item-carousel .owl-next{
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -border-radius: 2px;
-    
+
     -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, .75);
     -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, .75);
     box-shadow: 0px 1px 5px rgba(0, 0, 0, .75);
@@ -5811,7 +5811,7 @@ section:hover .small-item-carousel .owl-next{
     left: 0;
     background: rgba(10,10,10, .85);
     cursor:crosshair;
-    
+
     z-index: 1030;
 }
 .side-panel{
@@ -5825,9 +5825,9 @@ section:hover .small-item-carousel .owl-next{
     color: rgba(255,255,255, .65);
     background: #151515;
     text-align: center;
-    
+
     z-index: 1031;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -5841,18 +5841,18 @@ section:hover .small-item-carousel .owl-next{
     height: 36px;
     border: 1px solid rgba(255,255,255, .5);
     opacity: .5;
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-   
-    
+
+
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg); 
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    
+
     -webkit-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.17s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -5861,7 +5861,7 @@ section:hover .small-item-carousel .owl-next{
 }
 .sp-close-button:hover{
     opacity: .75;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg); 
     -o-transform: rotate(45deg);
@@ -5902,11 +5902,11 @@ section:hover .small-item-carousel .owl-next{
     opacity: .85;
     text-indent: -12345px;
     z-index: 1030;
-    
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    
+
     -webkit-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: opacity 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -5925,7 +5925,7 @@ section:hover .small-item-carousel .owl-next{
     top: 50%;
     left: 50%;
     margin: -1px 0 0 -11px;
-    
+
     -webkit-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.07s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -5956,13 +5956,13 @@ section:hover .small-item-carousel .owl-next{
 
 
 /* Logo */
- .sp-logo-wrap{
+.sp-logo-wrap{
 }
 .sp-logo-wrap .logo{
     display: block;
     padding: 30px;
     text-align: center;
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -5976,7 +5976,7 @@ section:hover .small-item-carousel .owl-next{
 /* Menu */
 
 .sp-wrapper{
-    
+
 }
 .sp-menu-links,
 .sp-menu-links ul{
@@ -5995,20 +5995,20 @@ section:hover .small-item-carousel .owl-next{
     padding: 15px 20px;
     color: #999;
     font-size: 14px;
-   
+
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-    
+
     -webkit-tap-highlight-color: rgba(255,255,255, .1); 
-        
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-    
+
     z-index: 11;
 }
 .no-touch .sp-menu-links a:hover,
@@ -6039,7 +6039,7 @@ section:hover .small-item-carousel .owl-next{
 }
 
 .sp-has-sub{
-    
+
 }
 .sp-has-sub .fa{
     font-size: 14px;
@@ -6098,11 +6098,11 @@ section:hover .small-item-carousel .owl-next{
     font-size: 14px;
     text-align: center;
     background: transparent;
-    
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
+
     z-index: 1032;
 }
 .sp-social-links > a{
@@ -6115,11 +6115,11 @@ section:hover .small-item-carousel .owl-next{
     text-align: center;    
     text-decoration: none;
     color: #555;
-    
+
     -webkir-border-radius: 50%; 
     -moz-border-radius: 50%; 
     border-radius: 50%; 
-    
+
     -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
     -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
     -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
@@ -6261,7 +6261,7 @@ section:hover .small-item-carousel .owl-next{
     font-size: 10px;
     font-weight: 500;
     text-transform: uppercase;
- 
+
     line-height: 1;
     color: #999;
     z-index: 2;
@@ -6275,17 +6275,17 @@ section:hover .small-item-carousel .owl-next{
     top: 0;
     left: 0;
     background: rgba(255,255,255, .95);
-    
+
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    
+
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    
+
     z-index: 1;
 }
 
@@ -6381,22 +6381,22 @@ table .tooltips {
     font-size: 14px
 }
 .filtro-chave {
- width: 100%;
- float: left;
- clear: both
+    width: 100%;
+    float: left;
+    clear: both
 }
 .filtro-chave td:nth-child(1){
-   width: 35%;
-   padding-bottom: 2px
+    width: 35%;
+    padding-bottom: 2px
 }
 .filtro-chave td:nth-child(2){
-   width: 61%;
-       padding-bottom: 2px
+    width: 61%;
+    padding-bottom: 2px
 }
 .filtro-chave td:nth-child(3){
-  width: 4%;
-   text-align: right;
-   padding-bottom: 2px
+    width: 4%;
+    text-align: right;
+    padding-bottom: 2px
 }
 .filtro-chave input[type="text"], .filtro-chave button{
     border-radius: 0
@@ -6420,7 +6420,7 @@ table .tooltips {
     cursor: pointer
 }
 .historias input[type="radio"]{
-  margin: 0 5px
+    margin: 0 5px
 }
 .right-bordered {
     border-right: 1px solid #ccc
@@ -6434,21 +6434,291 @@ table .tooltips {
     text-align: center
 }
 .table-dd tr:nth-child(1), .table-dd tr:nth-child(1) a{
-  background:   #339900;
-  color: #fff;
+    background:   #339900;
+    color: #fff;
 }
 .table-dd tr:nth-child(2), .table-dd tr:nth-child(2) a{
-  background: #D29D00
+    background: #D29D00
 }
 .table-dd tr:nth-child(3), .table-dd tr:nth-child(3) a{
-  background: #FF0000;
-      color: #fff
+    background: #FF0000;
+    color: #fff
 }
 .table-dd tr:nth-child(4), .table-dd tr:nth-child(4) a{
-  background: #111183;
-  color: #fff
+    background: #111183;
+    color: #fff
 }
 .table-dd tr:nth-child(5), .table-dd tr:nth-child(5) a{
-  background: #666666;
-  color: #fff
+    background: #666666;
+    color: #fff
+}
+th {
+    text-align: center !important
+}
+
+.legenda li:nth-child(1), .colored-td tr td:nth-child(1), .positivo{background: #339900; color: #fff}
+.legenda li:nth-child(2), .colored-td tr td:nth-child(2), .neutro{background: #D29D00; color: #fff}
+.legenda li:nth-child(3), .colored-td tr td:nth-child(3), .negativo{background:#FF0000; color: #fff}
+.legenda li:nth-child(4), .colored-td tr td:nth-child(4), .hibrido{background: #111183; color: #fff}
+.legenda li:nth-child(5), .colored-td tr td:nth-child(5), .semclassificacao{background: #666666; color: #fff}
+
+
+
+.positivo, .neutro, .negativo, .hibrido, .semclassificacao {
+    padding: 5px
+}
+.colored-td th {
+    font-weight: 500
+}
+.btn {
+    text-decoration: none
+}
+
+.special-pagination ul, li {
+    list-style: none;
+    display: inline;
+    padding-left: 0px;
+}
+
+.special-pagination li {
+    counter-increment: pagination;
+}
+.special-pagination li:hover a {
+    color: #fdfdfd;
+    background-color: #1d1f20;
+    border: solid 1px #1d1f20;
+}
+.special-pagination li.active a {
+    color: #fdfdfd;
+    background-color: #1d1f20;
+    border: solid 1px #1d1f20;
+}
+.special-pagination li:first-child {
+    float: left;
+}
+.special-pagination li:first-child a:after {
+    content: "anterior";
+}
+.special-pagination li:nth-child(2) {
+    counter-reset: pagination;
+}
+.special-pagination li:last-child {
+    float: right;
+}
+.special-pagination li:last-child a:after {
+    content: "próximo";
+}
+.special-pagination li a {
+    border: solid 1px #d7d7d7;
+    border-radius: 0.2rem;
+    color: #7d7d7d;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 0.9rem;
+}
+.special-pagination li a:after {
+    content: " " counter(pagination) " ";
+}
+.special-pagination p {
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    background: #339900;
+    margin-top: 20px
+}
+
+.filtros a {
+    float: right;
+    margin-right: 5px
+}
+.no-padding {
+    padding: 0
+}
+.dark-bg {
+    background: #222;
+    color: #fff;
+}
+.gray-bg {
+    background: #ccc;
+}
+* a {
+    cursor: pointer
+}
+.info-busca {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+.info-busca li{
+    display: block;
+    margin-bottom: 10px
+}
+.info-checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.tagsy{
+    float: left;    
+}
+.rating {
+    float:right;
+    width: 226px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.rating input {
+    float: right;
+    opacity: 0;
+    position: absolute;
+}
+.rating a,
+.rating label {
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    transition: color 0.4s;
+}
+.positivo-f, .positivo-f label:hover ~ label,
+.positivo-f input:focus ~ label,
+.positivo-f input:checked ~ label,
+.positivo-f label:hover  {
+    color: #339900;
+    cursor: pointer;
+}
+.neutro-f, .neutro-f label:hover ~ label,
+.neutro-f input:focus ~ label,
+.neutro-f input:checked ~ label,
+.neutro-f label:hover  {
+    color: #D29D00;
+    cursor: pointer;
+}
+.negativo-f, .negativo-f label:hover ~ label,
+.negativo-f input:focus ~ label,
+.negativo-f input:checked ~ label,
+.negativo-f label:hover  {
+    color: #FF0000;
+    cursor: pointer;
+}
+.hibrido-f ,.hibrido-f label:hover ~ label,
+.hibrido-f input:focus ~ label,
+.hibrido-f input:checked ~ label,
+.hibrido-f label:hover  {
+    color: #111183;
+    cursor: pointer;
+}
+.semclassificacao-f , .semclassificacao-f label:hover ~ label,
+.semclassificacao-f input:focus ~ label,
+.semclassificacao-f input:checked ~ label,
+.semclassificacao-f label:hover  {
+    color: #666666;
+    cursor: pointer;
+}
+.tags-input 
+{
+    color:#fff;
+    list-style : none;   
+    border:1px solid #ccc;
+    display:inline-block;
+    padding:5px;
+    height: 26px;
+    font-size:14px;
+    background:#f3f3f3;
+    width: 100%;
+    height: 300px;
+    border-radius:2px;
+
+}
+
+.tags-input li{
+    float:left; margin: 5px
+}
+
+.tags{
+    background:#28343d;
+    padding:5px 20px 5px 8px;
+    border-radius:2px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.tags i{
+    position: absolute; 
+    right:6px;
+    top:3px;
+    width: 8px;
+    height: 8px;
+    content:'';
+    cursor:pointer;
+    opacity: .7;
+    font-size:12px;
+}
+
+.tags i:hover{
+    opacity: 1;
+}
+
+.tags-new input[type="text"]{   border:0;
+    margin: 0;
+    padding: 0 0 0 3px;
+    font-size: 14px;
+    margin-top: 5px;
+    background:transparent;
+    color: #222
+}
+
+.tags-new input[type="text"]:focus{
+    outline:none; 
+}
+.impressos a {
+    color:#339900;
+    font-weight: 700;
+    text-decoration: none;
+    float: left;
+    margin-top: 10px;
+    padding-bottom: -10px
+}
+
+.impressos tr {
+    border-bottom: 1px solid #ccc
+}
+.descritivos p, .forms p {
+    margin: 2px
+}
+.fake-button {
+    color: #339900;
+    font-weight: 600;
+    cursor: pointer
+}
+.table-web {
+    display: table
+}
+.web-label {
+    background: #666666;
+    color: #fff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.numbers p:not(:last-of-type){
+    border-bottom: 1px solid #ccc;
+    margin: 5px
+}
+.menos-padding *{
+    padding: 0;
+    margin: 5px
+}
+.prefs .checkbox {
+    margin-left: 25px
+}
+.bottom-bordered {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px
 }
