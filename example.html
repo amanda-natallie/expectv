@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/remodal-default-theme.css">
         <link rel="stylesheet" href="css/remodal.css">
+        <link rel="stylesheet" href="css/hover.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
     </head>
     <body class="appear-animate">
@@ -24,7 +25,7 @@
             <div class="loader">carregando...</div>
         </div>
         <div class="page" id="top">
-            <a href="" class="logo" style="position: absolute; top: 20px; z-index: 99999; left: 40%">
+            <a href="" class="logo" style="position: absolute; top: 20px; z-index: 99999; left: 42%">
                 <img src="images/logo-white.png" alt="" />
             </a>
 
@@ -32,8 +33,8 @@
 
             <section class="small-section bg-dark-alfa-70 sempadding" data-background="images/full-width-images/section-bg-6.jpg">
 
-                <div class="relative container align-left descritivos">
-                    <div class="tagsy">Tags <a href="#tagsMM" class="btn btn-info"><i class="fa fa-plus"></i></a></div>
+                <div class="relative container-fluid align-left descritivos">
+                    <div class="tagsy"><span class="pull-left" style="margin-top: 5px; margin-right: 5px">Tags</span> <a href="#tagsMM" class="btn btn-info"><i class="fa fa-plus"></i></a></div>
                     <div class="rating">
                         <a href="#ratingM">
                             <i class="fa fa-info-circle "></i>
@@ -46,19 +47,43 @@
                             <span class="positivo-f"><input  checked="checked"  name="stars" id="e51"  type="radio"><label for="e51"><i class="far fa-grin"></i></label></span>
                         </form>
                     </div>
+                    <img src="images/1.png" alt="" title="" style="position: absolute; top: -4%; right: 250px">
                     <div class="clearfix"></div>
-                    <div class="row text-center ">
-                        <h3>A Notícia   18/01/2019   Página: 2</h3>
-                        <p><span class="neutro">NEUTRO</span> Área: <strong>0,00 cm²</strong>   Valoração da Matéria: <strong>Não disponível.</strong></p>
-                        <p><strong>Bandeira esportiva</strong></p>
-                        <p>Caderno: <strong>Principal</strong> Editoria: <strong>Rio Negrinho</strong></p>
-                        <p>Seção <strong>Política</strong> Coluna <strong>Raul Sartori</strong></p>
-                        <a href="http://design.expectv.com.br/imagens/2019/01/23/agsbs190123a04.jpg" target="_blank">VEJA A PÁGINA INTEIRA</a>
-                        <p><input type="checkbox"> Desmarque as notícias que você não quer manter no relatório.</p>
-                        <ul class="list-inline list-unstyled">
-                            <li><a href="" data-toggle="tooltip" title="Baixe o PDF com todos os itens selecionados na lista"><img src="images/botoes/pp_bt_gerar_pdf.gif" alt="" title=""></a></li>
-                            <li><a class="popup" href="enviar-email.html" data-toggle="tooltip" title="Selecione os registros de MÍDIA IMPRESSA/WEB para enviar as matérias diretamente no corpo do e-mail."><img src="images/botoes/pp_bt_indique.gif" alt="" title=""></a></li>
-                        </ul>
+                    <div class="row text-center font-1">
+                        <h3 style="margin: 5px;font-size: 30px !important">A Notícia   18/01/2019   Página: 2</h3>
+                        <h4 style="margin: 5px 0;font-size: 23px !important">Para "desencantar" obras inacabadas</h4> 
+                        
+                        <div class="col-md-3 text-left">
+                            <p><span class="neutro">NEUTRO</span> Área: <strong>0,00 cm²</strong></p>
+                            <p>Valoração da Matéria: <strong>Não disponível.</strong></p>
+                             <p><strong>Bandeira esportiva</strong></p>
+                            
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <ul class=" list-unstyled mt-40 separar">
+                                
+                                <li><a href="" data-toggle="tooltip" title="Baixe o PDF com todos os itens selecionados na lista" class="hvr-float"><img src="images/botoes/gerar-pdf.png" alt="" title=""></a></li>
+                                <li><a href="" data-toggle="tooltip" title="Compartilhe no WhatsApp" ><i class="fa fa-whatsapp fa-2x"></i></a></li>
+                                <li><a  class="hvr-float" href="enviar-email.html" data-toggle="tooltip" title="Selecione os registros de MÍDIA IMPRESSA/WEB para enviar as matérias diretamente no corpo do e-mail."><img src="images/botoes/enviar-clipping-por-email.png" alt="" title=""></a></li>
+                                
+                            </ul>
+                            <ul class=" list-unstyled mt-10">
+                                <li><a href="" class="btn btn-info"><i class="fa fa-chevron-circle-left"></i> Anterior</a></li>
+                                <li><a href="" class="btn btn-info">Próximo <i class="fa fa-chevron-circle-right"></i></a> </li>
+                            </ul>
+                            <p style="margin-left: 12%; float: left"><input type="checkbox" class="pull-left"><span class="pull-left" style="margin-top: 2px">Desmarque as notícias que você não quer manter no relatório.</span> </p>
+                            <p>1 de 99</p>
+                        </div>
+                        <div class="col-md-3 text-right">
+                           <p>Caderno: <strong>Principal</strong> Editoria: <strong>Rio Negrinho</strong></p>
+                            <p>Seção <strong>Política</strong> Coluna <strong>Raul Sartori</strong></p>
+                            <a href="http://design.expectv.com.br/imagens/2019/01/23/agsbs190123a04.jpg" target="_blank">VEJA A PÁGINA INTEIRA</a><br>
+                            <p><a onclick="window.close()" data-toggle="tooltip" title="Fechar janela e retornar para a Área de Busca"><i class="fa fa-reply fa-2x"></i></a></p>
+                        </div>
+                        
+
+
+
                         <div class="clearfix"></div>
 
                     </div>
@@ -71,7 +96,7 @@
                 </div>
             </section>
 
-            <div class="remodal" data-remodal-id="ratingM" role="dialog" aria-labelledby="ratingM" aria-describedby="ratingM">
+            <div class="remodal" data-remodal-id="VisuGraficos" role="dialog" aria-labelledby="ratingM" aria-describedby="ratingM">
                 <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
                 <div class="text-justify">
                     <h4>Procure não fugir dessas regras se for modificar a classificação</h4>
@@ -80,6 +105,7 @@
                 <br>
                 <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
             </div>
+            
             <div class="remodal" data-remodal-id="tagsMM" role="dialog" aria-labelledby="tagsMM" aria-describedby="tagsMM">
                 <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
                 <div class="text-justify">
@@ -89,7 +115,7 @@
                         <ul class="tags-input">
                             <li class="tags">Minha tag<i class="fa fa-times"></i></li>
                             <li class="tags-new">
-                                <input type="text" placeholder="Tags separadas por virgula">
+                                <input type="text" placeholder="Tags separadas por virgula" style="min-width: 225px">
                             </li>
                         </ul>
                     </div>
@@ -148,7 +174,7 @@
             $(function () {
 
                 var
-                        w = 770,
+                        w = 1100,
                         h = 600,
                         l = (screen.availWidth - w) / 2,
                         t = (screen.availHeight - h) / 2,

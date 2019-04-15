@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
         <title>Meus Dados - ExpecTV</title>
         <meta name="description" content="">
@@ -34,13 +34,15 @@
                     <div class="inner-nav desktop-nav">
                         <ul class="clearlist">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="sobre.html">Empresa</a></li>
                             <li><a href="servicos.html">Serviços</a></li>
+                            <li><a href="sobre.html">Empresa</a></li>
                             <li><a href="depoimentos.html">Depoimentos</a></li>
+                            <li><a href="como-somos.html">Como Somos</a></li>
+                            <li><a href="onde-estamos.html">Onde Estamos</a></li>
                             <li><a href="alem-do-clipping.html">Além do Clipping</a></li>
                             <li><a href="contato.html">Contato</a></li>
-                            <li><a href="#"> </a></li>
-                            <li> <a class="active" href="login.html"><i class="fa fa-lock"></i> Login</a></li>
+                            <li><a href="#">&nbsp;</a></li>
+                            <li> <a href="login.html"><i class="fa fa-lock"></i> Entrar</a></li>
                             <li> <a href="cadastro.html"><i class="fa fa-user"></i> Cadastro</a></li>
                         </ul>
                     </div>
@@ -60,8 +62,27 @@
                     </div>
                 </div>
             </section>
-
+ 
             <section class="page-section">
+                <div class="container relative mb-30">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="http://design.expectv.com.br/a2c_cms/uploads/20151103014340.jpg" alt="logo do cliente" title="" class="img-responsive">
+                        </div>
+                        
+                        <div class="col-md-8">
+                            
+                            <ul class="list-inline list-unstyled" >
+                                <li><a href="area-pesquisa.html">Área de Busca</a></li>
+                                <li><a href="area-cliente.html">Informações Úteis</a></li>
+                                <li><a href="meus-dados.html">Meus Dados e Opções</a></li>
+                                <li><a href="termos-de-uso.html" target="_blank">Termos de Uso</a></li>
+                                <li><a href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a></li>
+                                <li><a href="index.html">Sair</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -127,12 +148,12 @@
                                             <div class="form-group col-md-12 prefs">
                                                 <h5>Opções de Avisos por E-mail:</h5>
                                                  <label class="checkbox negativo-f">
-                                                    <input type="checkbox" id="inlineCheckbox1" value="option1">Quero receber e-mails com avisos de novas clipagens
+                                                    <input type="checkbox" checked id="inlineCheckbox1" value="option1">Quero receber e-mails com avisos de novas clipagens
                                                 </label>
                                                 <div class="form-group normal-color">
                                                     <h5>Em RÁDIO, receber:</h5>
                                                     <label class="checkbox" >
-                                                        <input type="checkbox" name="radio" value="option1">Textos diretamente no corpo da mensagem
+                                                        <input type="checkbox" checked name="radio" value="option1">Textos diretamente no corpo da mensagem
                                                     </label>
                                                     <label class="checkbox" >
                                                         <input type="checkbox" name="radio" value="option2">PDF em anexo
@@ -141,7 +162,7 @@
                                                 <div class="form-group normal-color">
                                                     <h5>Em TELEVISÃO, receber:</h5>
                                                     <label class="checkbox" >
-                                                        <input type="checkbox" name="tv" value="option1">Textos diretamente no corpo da mensagem
+                                                        <input type="checkbox" checked name="tv" value="option1">Textos diretamente no corpo da mensagem
                                                     </label>
                                                     <label class="checkbox" >
                                                         <input type="checkbox" name="tv" value="option2">PDF em anexo
@@ -150,16 +171,16 @@
                                                 <div class="form-group normal-color">
                                                     <h5>Em IMPRESSOS, receber:</h5>
                                                     <label class="checkbox" >
-                                                        <input type="checkbox" name="impresso" value="option1">Links para as matérias
+                                                        <input type="checkbox" checked name="impresso" value="option1">Links para as matérias
                                                     </label>
                                                     <label class="checkbox" >
-                                                        <input type="checkbox" name="impresso" value="option2">Prints das matérias 
+                                                        <input type="checkbox"  name="impresso" value="option2">Prints das matérias 
                                                     </label>
                                                 </div>
                                                 <div class="form-group normal-color">
                                                     <h5>Em DIRETO DA WEB, receber:</h5>
                                                     <label class="checkbox" >
-                                                        <input type="checkbox" name="web" value="option1">Links e Textos das matérias
+                                                        <input type="checkbox" checked name="web" value="option1">Links e Textos das matérias
                                                     </label>
                                                     <label class="checkbox" >
                                                         <input type="checkbox" name="web" value="option2">PDF em anexo
@@ -173,7 +194,7 @@
                                                         <input type="radio" name="impressos1" value="option1">Ordem de Paginação
                                                     </label>
                                                     <label class="radio-inline" >
-                                                        <input type="radio" name="impressos1" value="option2">Assunto/Ligação Editorial
+                                                        <input type="radio" checked name="impressos1" value="option2">Assunto/Ligação Editorial
                                                     </label>
                                                 </div>  
                                             </div>
@@ -210,7 +231,7 @@
             <footer class="page-section bg-gray-lighter footer pb-60">
                 <div class="container">
                     <div class="local-scroll mb-30 wow fadeInUp text-center col-md-12" data-wow-duration="1.5s">
-                        <a href="http://www.abemo.org" target="_blank"><img src="https://expectv.com.br/upload_site/banner_principal/b6c0e798bd9dfe7643f508460503e2e6.jpg" alt="" title="" ></a>
+                        <a href="http://www.abemo.org" target="_blank"><img src="images/abemo.png" style="max-height:70px" alt="" title="" ></a>
 
                     </div>
                     <div class="footer-social-links mb-20 mb-xs-20">

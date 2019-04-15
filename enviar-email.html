@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Enviar clipping por email - ExpecTV</title>
+        <title>Encaminhar/Compartilhar Relatório de Clipping - ExpecTV</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta charset="utf-8">
@@ -21,16 +21,20 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
     </head>
     <body>
-        <div class="page" id="top" style="background: #ccc; padding-bottom: 20px; margin-bottom: 20px">
-            <a href="" class="logo" style="margin: 30px auto; display: table">
-                <img src="images/logo-dark.png" alt="" />
+        <div class="page" id="top">
+            <a href="" class="logo" style="position: absolute; top: 50px; z-index: 99999; left: 42%">
+                <img src="images/logo-white.png" alt="" />
             </a>
-        </div>
 
 
+
+            <section class="small-section bg-dark-alfa-70 sempadding" data-background="images/full-width-images/section-bg-6.jpg"><br><br><br><br><br></section>
+            <br>
+            <br>
             <div class="container relative forms mb-40">
                 <div class="row">
                     <div class="col-md-12">
+                        <h2>Encaminhar/Compartilhar Relatório de Clipping:</h2>
                         <h4>Seus Dados:</h4>
                         <p>Nome: DESIGNER Cleberson CRIATIVIN </p>
                         <p>E-mail: criativin@expectv.com.br </p>
@@ -48,17 +52,13 @@
                                     <div class="clearfix">
                                         <div class="form-group">
                                             <label>E-mails*:</label>
-                                            <textarea name="email" id="email" class="input-md round form-control" placeholder=""></textarea>
+                                            <textarea name="email" id="email" class="input-md round form-control" placeholder="Separe os endereços de e-mails por ponto e virgula (;)"></textarea>
                                         </div>
                                         <div class="form-group">
                                             <label>Assunto:</label>
-                                            <input type="text" name="name" id="name" class="input-md round form-control" placeholder="Nome" pattern=".{3,100}" required>
+                                            <input type="text" name="name" id="name" class="input-md round form-control" placeholder="Digite o Assunto" pattern=".{3,100}" required>
                                         </div>
                                     </div>
-                                    <div class="pt-10">
-                                            <span class="msg-error error"></span>
-                                            <div id="recaptcha" class="g-recaptcha" data-sitekey="6LcEW0UUAAAAAOFBxuj25YjrJ-7gZypYTn9OyWgi" style="width: 100%;"></div>
-                                        </div>
                                     <div class="clearfix">
                                         <div class="cf-left-col">
                                             <div class="form-tip pt-20">
@@ -79,12 +79,12 @@
                                 <form class="form contact-form" id="contact_form">
                                     <div class="clearfix">
                                         <div class="form-group">
-                                            <label>Arquivo*:</label>
+                                            <label>Arquivo .txt*:</label>
                                             <input type="file" class="form-control">
                                         </div>
                                         <div class="form-group">
                                             <label>Assunto:</label>
-                                            <input type="text" name="estado" id="estado" class="input-md round form-control" placeholder="Estado" pattern=".{5,100}" required>
+                                            <input type="text" name="estado" id="estado" class="input-md round form-control" placeholder="Digite o Assunto" pattern=".{5,100}" required>
                                         </div>
                                         <div class="pt-10">
                                             <span class="msg-error error"></span>
@@ -173,7 +173,7 @@
                                                     $(function () {
 
                                                         var
-                                                                w = 770,
+                                                                w = 1100,
                                                                 h = 600,
                                                                 l = (screen.availWidth - w) / 2,
                                                                 t = (screen.availHeight - h) / 2,
