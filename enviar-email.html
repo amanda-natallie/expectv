@@ -22,15 +22,15 @@
     </head>
     <body>
         <div class="page" id="top">
-            <a href="" class="logo" style="position: absolute; top: 50px; z-index: 99999; left: 42%">
+            <a href="" class="logo" style="position: absolute; top: 15px; z-index: 99999; left: 42%">
                 <img src="images/logo-white.png" alt="" />
             </a>
 
 
 
-            <section class="small-section bg-dark-alfa-70 sempadding" data-background="images/full-width-images/section-bg-6.jpg"><br><br><br><br><br></section>
+            <section class="small-section bg-dark-alfa-70 sempadding" data-background="images/full-width-images/section-bg-6.jpg"><br></section>
             <br>
-            <br>
+         
             <div class="container relative forms mb-40">
                 <div class="row">
                     <div class="col-md-12">
@@ -45,9 +45,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <dl class="accordion">
-                            <dt class="fake-button" onclick="mostraDiv('#endManual')">Digite os endereços de e-mails manualmente:</dt>
-                            <dd id="endManual" style="display: none">
+                        
+                            <p class="fake-button" onclick="mostraDiv('#endManual')">Digite os endereços de e-mails manualmente:</p>
+                            <div id="endManual" style="display: none">
                                 <form class="form contact-form" id="contact_form">
                                     <div class="clearfix">
                                         <div class="form-group">
@@ -73,9 +73,9 @@
                                     </div>
 
                                 </form>
-                            </dd>
-                            <dt class="fake-button" onclick="mostraDiv('#endCarregar')">Carregue um arquivo com endereços de e-mails separados por ponto e vírgula (;):</dt>
-                            <dd id="endCarregar" style="display: none">
+                            </div>
+                            <p class="fake-button" onclick="mostraDiv('#endCarregar')">Carregue um arquivo com endereços de e-mails separados por ponto e vírgula (;):</p>
+                            <div id="endCarregar" style="display: none">
                                 <form class="form contact-form" id="contact_form">
                                     <div class="clearfix">
                                         <div class="form-group">
@@ -95,8 +95,8 @@
                                         </div>
                                     </div>
                                 </form>
-                            </dd>
-                        </dl>
+                            </div>
+                        
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
         <script type="text/javascript" src="js/bootstrap-inputmask.min.js"></script>
         <script type="text/javascript" src="js/jquery.validate.unobtrusive.min.js"></script>
         <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-        <script type="text/javascript" src="js/additional-methods.min.js"></script>
+        <script type="text/javascript" src="js/adivitional-methods.min.js"></script>
         <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
         <script type="text/javascript">
             $("#validation-form").validate();

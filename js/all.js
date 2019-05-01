@@ -1,11 +1,6 @@
 (function ($) {
     "use strict"; // Start of use strict
 
-
-
-
-
-
     /* ---------------------------------------------
      Scripts initialization
      --------------------------------------------- */
@@ -1052,4 +1047,13 @@ $(function() {
             }, 1500, 'easeInOutExpo');
             event.preventDefault()
         })
+    });
+    
+    $("#env1").click(function(){
+        $("#camp1").show("fast");
+        $("#camp2").hide("fast");
+    });
+    $("#env2").click(function(){
+        $("#camp2").show("fast");
+        $("#camp1").hide("fast");
     });

@@ -25,62 +25,112 @@
             <div class="loader">carregando...</div>
         </div>
         <div class="page" id="top">
-            <a href="" class="logo" style="position: absolute; top: 20px; z-index: 99999; left: 42%">
+            <a href="" class="logo logo-example">
                 <img src="images/logo-white.png" alt="" />
             </a>
 
+<div class="remodal" data-remodal-id="ratingM" role="dialog" aria-labelledby="ratingM" aria-describedby="ratingM">
+                <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+                <div class="text-justify">
+                    <h4>Procure não fugir dessas regras se for modificar a classificação</h4>
+                    <img src="images/diversas/impactos3.jpg" alt="" title="" class="img-responsive">
+                </div>
+                <br>
+                <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+            </div>
+            <div class="remodal" data-remodal-id="ShareWpp" role="dialog" aria-labelledby="ShareWpp" aria-describedby="ShareWpp">
+                <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+                <div class="text-justify">
+                    <h4>Enviar PDF deste Clipping por WhatsApp</h4>
+                    <div class="form-group normal-color">
+                        <label class="radio-inline" >
+                            <input type="radio" name="env" value="option1" class="pull-left" checked="" id="env1"><span class="pull-left" style="margin-top: 0px">Número Existente</span>
+                        </label>
+                        <label class="radio-inline" >
+                            <input type="radio" name="env" value="option2" class="pull-left" id="env2"><span class="pull-left" style="margin-top: 0px">Novo Número</span>
+                        </label>
+                    </div>  
+                    <div id="camp1">
+                        <label>Celular:</label>
+                        <select name="selec" class="form-control">
+                            <option value="">-- Selecione um --</option>
+                            <option value="">PMJ Rodrigo Swartxz - (47) 9999-9999</option>
+                            <option value="">PMJ Rodrigo Swartxz - (47) 9999-9999</option>
+                            <option value="">PMJ Rodrigo Swartxz - (47) 9999-9999</option>
+                            <option value="">PMJ Rodrigo Swartxz - (47) 9999-9999</option>
+                        </select>
+                        <div class="text-center">
+                            <br>
+                            <button data-remodal-action="confirm" class="remodal-confirm">Enviar</button>
+                        </div>
 
-
+                    </div>
+                    <div id="camp2" style="display: none">
+                        <label>Nome:</label>
+                        <input type="text" data-mask="(99) 99999-9999" placeholder="(99) 99999-9999" class="form-control">
+                        <label>Celular</label>
+                        <input type="text" data-mask="(99) 99999-9999" placeholder="(99) 99999-9999" class="form-control">
+                        <div class="text-center">
+                            <br>
+                            <button data-remodal-action="confirm" class="remodal-confirm">Enviar via Whatsapp</button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!--                <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+                                <button data-remodal-action="confirm" class="remodal-confirm">Cancelar</button>-->
+            </div>
             <section class="small-section bg-dark-alfa-70 sempadding" data-background="images/full-width-images/section-bg-6.jpg">
 
-                <div class="relative container-fluid align-left descritivos">
+                <div class="relative container-fluid align-left descritivos imp-popup">
                     <div class="tagsy"><span class="pull-left" style="margin-top: 5px; margin-right: 5px">Tags</span> <a href="#tagsMM" class="btn btn-info"><i class="fa fa-plus"></i></a></div>
                     <div class="rating">
                         <a href="#ratingM">
                             <i class="fa fa-info-circle "></i>
                         </a>
                         <form>
-                            <span class="semclassificacao-f"><input name="stars" id="e11" type="radio"><label for="e11"><i class="far fa-meh-blank"></i></label></span>
-                            <span class="hibrido-f"><input name="stars" id="e21"  type="radio"><label for="e21"><i class="far fa-meh"></i></label></span>
-                            <span class="negativo-f"><input name="stars" id="e31"  type="radio"><label for="e31"><i class="far fa-frown"></i></label></span>
-                            <span class="neutro-f"><input name="stars" id="e41"  type="radio"><label for="e41"><i class="far fa-smile"></i></label></span>
-                            <span class="positivo-f"><input  checked="checked"  name="stars" id="e51"  type="radio"><label for="e51"><i class="far fa-grin"></i></label></span>
+                            <span class="positivo-f"><input  name="stars" id="e5" type="radio"><label for="e5" data-toggle="tooltip" title="DESFAZER"><i class="fas fa-undo" ></i></label></span>
+                            <span class="semclassificacao-f"><input name="stars" id="e1" type="radio"><label for="e1" data-toggle="tooltip" title="SEM CLASSIFICAÇÃO"><i class="far fa-meh-blank"></i></label></span>
+                            <span class="hibrido-f"><input name="stars" id="e2"  type="radio"><label for="e2" data-toggle="tooltip" title="HÍBRIDO"><i class="far fa-meh"></i></label></span>
+                            <span class="negativo-f"><input checked="checked"  name="stars" id="e3"  type="radio"><label for="e3" data-toggle="tooltip" title="NEGATIVO"><i class="far fa-frown"></i></label></span>
+                            <span class="neutro-f"><input name="stars" id="e4"  type="radio"><label for="e4" data-toggle="tooltip" title="NEUTRO"><i class="far fa-smile"></i></label></span>
+                            <span class="positivo-f"><input  name="stars" id="e5" type="radio"><label for="e5" data-toggle="tooltip" title="POSITIVO"><i class="far fa-grin"></i></label></span>
                         </form>
                     </div>
-                    <img src="images/1.png" alt="" title="" style="position: absolute; top: -4%; right: 250px">
+                    <img src="images/1.png" alt="" title="" id="graficoBt">
                     <div class="clearfix"></div>
                     <div class="row text-center font-1">
                         <h3 style="margin: 5px;font-size: 30px !important">A Notícia   18/01/2019   Página: 2</h3>
                         <h4 style="margin: 5px 0;font-size: 23px !important">Para "desencantar" obras inacabadas</h4> 
-                        
-                        <div class="col-md-3 text-left">
+
+                        <div class="col-md-3 text-left col-xs-12 text-center-xs mb-xs-20 mt-xs-20">
                             <p><span class="neutro">NEUTRO</span> Área: <strong>0,00 cm²</strong></p>
                             <p>Valoração da Matéria: <strong>Não disponível.</strong></p>
-                             <p><strong>Bandeira esportiva</strong></p>
-                            
+                            <p><strong>Bandeira esportiva</strong></p>
+
                         </div>
                         <div class="col-md-6 text-center">
                             <ul class=" list-unstyled mt-40 separar">
-                                
+
                                 <li><a href="" data-toggle="tooltip" title="Baixe o PDF com todos os itens selecionados na lista" class="hvr-float"><img src="images/botoes/gerar-pdf.png" alt="" title=""></a></li>
-                                <li><a href="" data-toggle="tooltip" title="Compartilhe no WhatsApp" ><i class="fa fa-whatsapp fa-2x"></i></a></li>
+                                <li><a href="#ShareWpp" data-toggle="tooltip" title="Compartilhe no WhatsApp" ><i class="fa fa-whatsapp fa-2x"></i></a></li>
                                 <li><a  class="hvr-float" href="enviar-email.html" data-toggle="tooltip" title="Selecione os registros de MÍDIA IMPRESSA/WEB para enviar as matérias diretamente no corpo do e-mail."><img src="images/botoes/enviar-clipping-por-email.png" alt="" title=""></a></li>
-                                
+
                             </ul>
                             <ul class=" list-unstyled mt-10">
                                 <li><a href="" class="btn btn-info"><i class="fa fa-chevron-circle-left"></i> Anterior</a></li>
                                 <li><a href="" class="btn btn-info">Próximo <i class="fa fa-chevron-circle-right"></i></a> </li>
                             </ul>
-                            <p style="margin-left: 12%; float: left"><input type="checkbox" class="pull-left"><span class="pull-left" style="margin-top: 2px">Desmarque as notícias que você não quer manter no relatório.</span> </p>
+                            <p class="desrm"><input type="checkbox" class="pull-left"><span class="pull-left" style="margin-top: 2px">Desmarque as notícias que você não quer manter no relatório.</span> </p>
                             <p>1 de 99</p>
                         </div>
-                        <div class="col-md-3 text-right">
-                           <p>Caderno: <strong>Principal</strong> Editoria: <strong>Rio Negrinho</strong></p>
+                        <div class="col-md-3 text-right col-xs-12 text-center-xs mb-xs-20 mt-xs-20">
+                            <p>Caderno: <strong>Principal</strong> Editoria: <strong>Rio Negrinho</strong></p>
                             <p>Seção <strong>Política</strong> Coluna <strong>Raul Sartori</strong></p>
                             <a href="http://design.expectv.com.br/imagens/2019/01/23/agsbs190123a04.jpg" target="_blank">VEJA A PÁGINA INTEIRA</a><br>
                             <p><a onclick="window.close()" data-toggle="tooltip" title="Fechar janela e retornar para a Área de Busca"><i class="fa fa-reply fa-2x"></i></a></p>
                         </div>
-                        
+
 
 
 
@@ -96,28 +146,35 @@
                 </div>
             </section>
 
-            <div class="remodal" data-remodal-id="VisuGraficos" role="dialog" aria-labelledby="ratingM" aria-describedby="ratingM">
-                <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-                <div class="text-justify">
-                    <h4>Procure não fugir dessas regras se for modificar a classificação</h4>
-                    <img src="images/diversas/impactos3.jpg" alt="" title="" class="img-responsive">
-                </div>
-                <br>
-                <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
-            </div>
             
+
             <div class="remodal" data-remodal-id="tagsMM" role="dialog" aria-labelledby="tagsMM" aria-describedby="tagsMM">
                 <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
                 <div class="text-justify">
                     <h4>Adicionar/Editar Tags</h4>
                     <div id="wrapper">
-                        <p>Tags já aplicadas a esta notícia:</p>
-                        <ul class="tags-input">
-                            <li class="tags">Minha tag<i class="fa fa-times"></i></li>
-                            <li class="tags-new">
-                                <input type="text" placeholder="Tags separadas por virgula" style="min-width: 225px">
-                            </li>
-                        </ul>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <p>Tags já aplicadas a esta notícia:</p>
+                                    <ul class="tags-input">
+                                        <li class="tags">Minha tag<i class="fa fa-times"></i></li>
+                                        <li class="tags-new">
+                                            <input type="text" placeholder="Tags separadas por virgula" style="min-width: 225px">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-5">
+                                    <p>Minhas tags:</p>
+                                    <div style="background: #ccc; height: 300px; resize: none; width: 100%; float: left; ">
+                                        <ul class="tags-input">
+                                            <li class="tags" style="width: 96%">Minha tag&nbsp;<i class="fa fa-edit fa-2x"></i>&nbsp;<i class="fa fa-times fa-2x" style="top:15px"></i></li>
+                                            <li class="tags" style="width: 96%">Outra Tag &nbsp;<i class="fa fa-edit fa-2x"></i>&nbsp;<i class="fa fa-times fa-2x" style="top:15px"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <br>
@@ -128,64 +185,64 @@
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" >
-            function existingTag(text) {
-                var existing = false,
-                        text = text.toLowerCase();
+                                function existingTag(text) {
+                                    var existing = false,
+                                            text = text.toLowerCase();
 
-                $(".tags").each(function () {
-                    if ($(this).text().toLowerCase() == text)
-                    {
-                        existing = true;
-                        return "";
-                    }
-                });
+                                    $(".tags").each(function () {
+                                        if ($(this).text().toLowerCase() == text)
+                                        {
+                                            existing = true;
+                                            return "";
+                                        }
+                                    });
 
-                return existing;
-            }
+                                    return existing;
+                                }
 
-            $(function () {
-                $(".tags-new input").focus();
+                                $(function () {
+                                    $(".tags-new input").focus();
 
-                $(".tags-new input").keyup(function () {
+                                    $(".tags-new input").keyup(function () {
 
-                    var tag = $(this).val().trim(),
-                            length = tag.length;
+                                        var tag = $(this).val().trim(),
+                                                length = tag.length;
 
-                    if ((tag.charAt(length - 1) == ',') && (tag != ","))
-                    {
-                        tag = tag.substring(0, length - 1);
+                                        if ((tag.charAt(length - 1) == ',') && (tag != ","))
+                                        {
+                                            tag = tag.substring(0, length - 1);
 
-                        if (!existingTag(tag))
-                        {
-                            $('<li class="tags"><span>' + tag + '</span><i class="fa fa-times"></i></i></li>').insertBefore($(".tags-new"));
-                            $(this).val("");
-                        } else
-                        {
-                            $(this).val(tag);
-                        }
-                    }
-                });
+                                            if (!existingTag(tag))
+                                            {
+                                                $('<li class="tags"><span>' + tag + '</span><i class="fa fa-times"></i></i></li>').insertBefore($(".tags-new"));
+                                                $(this).val("");
+                                            } else
+                                            {
+                                                $(this).val(tag);
+                                            }
+                                        }
+                                    });
 
-                $(document).on("click", ".tags i", function () {
-                    $(this).parent("li").remove();
-                });
+                                    $(document).on("click", ".tags i", function () {
+                                        $(this).parent("li").remove();
+                                    });
 
-            });
-            $(function () {
+                                });
+                                $(function () {
 
-                var
-                        w = 1100,
-                        h = 600,
-                        l = (screen.availWidth - w) / 2,
-                        t = (screen.availHeight - h) / 2,
-                        popPage = '.popup';
+                                    var
+                                            w = 1100,
+                                            h = 600,
+                                            l = (screen.availWidth - w) / 2,
+                                            t = (screen.availHeight - h) / 2,
+                                            popPage = '.popup';
 
-                $(popPage).on('click', function (event) {
-                    window.open(this.href, "window", "width= " + w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
-                    return false;
-                });
+                                    $(popPage).on('click', function (event) {
+                                        window.open(this.href, "window", "width= " + w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
+                                        return false;
+                                    });
 
-            });
+                                });
         </script>
         <script type="text/javascript" src="js/SmoothScroll.js"></script>
         <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>

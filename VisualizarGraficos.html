@@ -8,44 +8,72 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.3/d3-tip.min.js"></script>
 
     </head>
-    <body>
+    <body class="visuGraph">
+        <input type="button" class="visible-xs pull-right btn btn-danger" name="Quit" id="Quit" value="Fechar" onclick="return quitBox('quit');" />
+        <div class="clearfix"></div>
+        <div class="left-a">
+            <i class="fa fa-3x fa-arrow-circle-left"></i>
+        </div>
+        <div class="right-a">
+            <i class="fa fa-3x fa-arrow-circle-right"></i>
+        </div>
+
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>WEB - SELECIONE OS TIPOS DE GRÁFICOS QUE DESEJA INCLUIR NO SEU RELATÓRIO</h3>
-                    <p style="margin-left: 12%; float: left"><input type="checkbox" class="pull-left"><span class="pull-left" style="margin-top: 2px">Marcar/Desmarcar todos os gráficos</span> </p>
-                    <p style="margin-left: 12%; float: left"><input type="checkbox" class="pull-left"><span class="pull-right" style="margin-top: 2px">Salvar seleção para os próximos relatórios</span> </p>
+                <div class="col-md-12 text-left">
+                    <br>
+                    <h4 class="text-center padding-esp"><strong>WEB - SELECIONE OS TIPOS DE GRÁFICOS QUE DESEJA INCLUIR NO SEU RELATÓRIO</strong></h4>
+                    <hr>
+                    <h4><input type="checkbox" ><span> WEB - Número de Notícias por Fonte e Impacto (001)</span> </h4>
                 </div>
             </div>
         </div>    
-            <div id="carousel-mck" class="carousel slide" data-ride="carousel" data-interval="false">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-mck" data-slide-to="0" class="active">
-                        <span class="sr-only">Math Conceptual Knowledge Scores</span>
-                    </li>
-                    <li data-target="#carousel-mck" data-slide-to="1">
-                        <span class="sr-only">Success in Course By Math Conceptual Knowledge Score</span>
-                    </li>
-                </ol>
+        <div id="carousel-mck" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-mck" data-slide-to="0" class="active">
+                    <span class="sr-only">Math Conceptual Knowledge Scores</span>
+                </li>
+                <li data-target="#carousel-mck" data-slide-to="1">
+                    <span class="sr-only">Success in Course By Math Conceptual Knowledge Score</span>
+                </li>
+            </ol>
 
-                    <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner" role="listbox">
 
-                        <div class="item text-center mck-grades active ">
-                            <img src="images/graph.png" style="margin: 10px auto; display: table">
-                        </div>
+                <div class="item text-center mck-grades active ">
+                    <img src="images/graph.png" style="margin: 10px auto; display: table">
+                </div>
 
-                        <div class="item text-center mck-success">
-                           <img src="images/graph.png" style="margin: 10px auto; display: table">
-                        </div>
-                    </div>
-
+                <div class="item text-center mck-success">
+                    <img src="images/graph.png" style="margin: 10px auto; display: table">
+                </div>
             </div>
-        
+
+        </div>
+        <div class="container rodaps">
+            <div class="row ">
+                <div class="col-md-12 text-left">
+                    <p class="pull-left"><input type="checkbox" class="pull-left"><span class="pull-left" style="margin-top: 3px; margin-left: 3px">Marcar/Desmarcar todos os gráficos</span> </p>
+                    <p class="pull-right pull-left-mobile"><input type="checkbox" class="pull-left"><span class="pull-right" style="margin-top: 3px; margin-left: 3px">Salvar seleção para os próximos relatórios</span> </p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function quitBox(cmd)
+            {
+                if (cmd === 'quit')
+                {
+                    open(location, '_self').close();
+                }
+                return false;
+            }
+        </script>
     </body>
-    
 </html>
